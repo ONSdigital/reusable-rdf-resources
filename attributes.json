@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "uris": {
+        "literalValues": {
+            "type": "string",
+            "format": "uri",
+            "enum": [
+                "http://example.com/attributes/attribute-with-literal-values"
+            ]
+        },
+        "resourceValues": {
+            "type": "string",
+            "format": "uri",
+            "enum": [
+                "http://example.com/attributes/attribute-with-resource-values"
+            ]
+        }
+    }
+}
