@@ -4,7 +4,11 @@
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/licenses/license"
+            "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "https://creativecommons.org/licenses/by/4.0/",
+            "http://www.opendatacommons.org/licenses/pddl/1.0/",
+            "http://purl.org/NET/rdflicense/EUPL1.1",
+            "http://opendatacommons.org/licenses/pddl/1.0/"
         ]
     }
 }

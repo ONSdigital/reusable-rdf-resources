@@ -1,10 +1,40 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
+    "$schema": ""http://json-schema.org/draft-07/schema",",
     "uris": {
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/organisations/organisation"
+            "http://purl.org/dc/aboutdcmi#DCMI",
+            "http://dbpedia.org/resource/Open_Knowledge_Foundation",
+            "https://www.gov.uk/government/organisations/home-office",
+            "https://www.gov.uk/government/organisations/welsh-government",
+            "https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy",
+            "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+            "https://www.gov.uk/government/organisations/department-for-transport",
+            "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government",
+            "https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport",
+            "https://www.gov.uk/government/organisations/department-for-communities-northern-ireland",
+            "https://www.gov.uk/government/organisations/hm-revenue-customs",
+            "https://www.gov.uk/government/organisations/forest-research",
+            "https://www.gov.uk/government/organisations/marine-management-organisation",
+            "https://www.gov.uk/government/organisations/met-office",
+            "https://www.gov.uk/government/organisations/national-records-of-scotland",
+            "https://www.gov.uk/government/organisations/nhs-digital",
+            "https://www.gov.uk/government/organisations/northern-ireland-statistics-and-research-agency",
+            "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "https://www.gov.uk/government/organisations/public-health-england",
+            "https://www.gov.uk/government/organisations/scottish-government",
+            "https://www.gov.uk/government/organisations/ministry-for-housing-communities-and-local-government",
+            "https://www.gov.uk/government/organisations/the-office-of-gas-and-electricity-markets",
+            "https://www.gov.uk/government/organisations/low-carbon-contracts-company-ltd",
+            "https://www.ons.gov.uk",
+            "https://uksa.statisticsauthority.gov.uk",
+            "http://statistics.data.gov.uk",
+            "https://www.gov.scot/statistics-and-research",
+            "https://www.gov.scot/about/how-government-is-run/directorates/housing-and-social-justice",
+            "https://www.nihe.gov.uk",
+            "https://statswales.gov.wales",
+            "https://www.ofgem.gov.uk"
         ]
     }
 }
