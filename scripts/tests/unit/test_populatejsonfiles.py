@@ -1,9 +1,10 @@
+from requests.exceptions import HTTPError
 import pytest
 import json
 
-from urllib.error import HTTPError
+import requests
 
-from scripts.populatejsonfiles import get, update_json
+from populatejsonfiles import get, update_json
 
 @pytest.mark.vcr
 def test_get_unit_url_successfully_retrieved():
@@ -12,7 +13,7 @@ def test_get_unit_url_successfully_retrieved():
     """
     unit_url = 'http://qudt.org/2.1/vocab/unit'
     r = get(unit_url)
-    assert r is r.ok
+    assert r.status_code is requests.codes.ok
 
 @pytest.mark.vcr
 def test_get_quantity_kind_url_successfully_retrieved():
@@ -21,18 +22,17 @@ def test_get_quantity_kind_url_successfully_retrieved():
     """
     quantity_kind_url = 'http://qudt.org/2.1/vocab/quantitykind'
     r = get(quantity_kind_url)
-    assert r is r.ok
+    assert r.status_code is requests.codes.ok
 
 @pytest.mark.vcr
-def test_get_raises_error():
+def test_get_raises_httperror():
     """
-    test get for expected HTTP error
+    test to see if HTTP error is raised
     """
-    url = 'http://this_doesnt_exist'
-    r = get(url)
-    assert r is not r.ok
-    assert r is type(HTTPError)
-    assert r == (f'Could not get "{url}" with status code {r.status_code}')
+    url = 'http://qudt.org/2.1/vocab/this_url_doesnt_exist'
+    with pytest.raises(HTTPError) as excinfo:
+        r = get(url)
+        assert f'Could not get "{url}" with status code {r.status_code}' in str(excinfo)
 
 @pytest.mark.vcr
 def test_update_json():
@@ -54,7 +54,7 @@ def test_update_json():
 
     no_duplicates = False
     for url in data['uris']['enum']:
-        if data['uris']['enum'].count(url) > 1:
+        if data['uris']['enum'].count(url) <= 1:
             no_duplicates = True
     
     assert no_duplicates == True
