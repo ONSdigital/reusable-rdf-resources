@@ -62,7 +62,7 @@ RESOURCES = [
 
 def get(url: str) -> (Response):
     """
-    Helper to get a http response representing an RDF defined list of resources
+    Helper to get a http response representing defined list of resources
     """
 
     r: Response = requests.get(url)
