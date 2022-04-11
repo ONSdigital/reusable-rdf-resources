@@ -1,6 +1,7 @@
-import json
-from urllib.error import HTTPError
 import pytest
+import json
+
+from urllib.error import HTTPError
 
 from scripts.populatejsonfiles import get, update_json
 
