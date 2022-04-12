@@ -7,7 +7,8 @@ Gather urls from web reources and dump into appropriate json files.
 import json
 from enum import Enum
 from pathlib import Path
-from typing import List, NamedTuple
+from typing import List
+from dataclasses import dataclass
 
 import requests
 from requests.models import Response
@@ -35,10 +36,11 @@ class SPARQL_QUERIES(Enum):
     }
     """
 
-
-class Resource(NamedTuple):
+@dataclass
+class Resource:
     """
-    A class to represent a ...
+    A class to represent values that make up the resources we want to 
+    retrieve urls from and which json files we want to store them into.
     """
 
     url: str
