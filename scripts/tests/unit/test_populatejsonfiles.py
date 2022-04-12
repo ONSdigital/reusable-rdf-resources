@@ -1,7 +1,9 @@
 from pathlib import Path
+import shutil
 from requests.exceptions import HTTPError
 import pytest
 import json
+import shutil
 
 import requests
 from tempfile import TemporaryDirectory
@@ -43,7 +45,12 @@ def test_update_json():
     """
     with TemporaryDirectory() as temp_dir:
         temp_dir = Path(temp_dir)
-        json_path = temp_dir / '/workspaces/reusable-rdf-resources/quantity-kinds.json'
+        json_path = temp_dir / '/workspaces/reusable-rdf-resources/temp_file'
+        shutil.copy(
+            '/workspaces/reusable-rdf-resources/quantity-kinds.json',
+            json_path
+        )
+
         url_list = ("http://qudt.org/vocab/quantitykind/AbsoluteActivity",
         "http://qudt.org/vocab/quantitykind/AbsoluteHumidity",
         "http://qudt.org/vocab/quantitykind/AbsorbedDose",
