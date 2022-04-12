@@ -1,8 +1,10 @@
+from pathlib import Path
 from requests.exceptions import HTTPError
 import pytest
 import json
 
 import requests
+from tempfile import TemporaryDirectory
 
 from populatejsonfiles import get, update_json
 
@@ -39,25 +41,27 @@ def test_update_json():
     """
     test update json does not add duplicates
     """
-    json_path = '/workspaces/reusable-rdf-resources/quantity-kinds.json'
-    url_list = ("http://qudt.org/vocab/quantitykind/AbsoluteActivity",
-      "http://qudt.org/vocab/quantitykind/AbsoluteHumidity",
-      "http://qudt.org/vocab/quantitykind/AbsorbedDose",
-      "http://qudt.org/vocab/quantitykind/AbsorbedDoseRate",
-      "http://qudt.org/vocab/quantitykind/Absorptance",
-      "http://qudt.org/vocab/quantitykind/Acceleration",)
+    with TemporaryDirectory() as temp_dir:
+        temp_dir = Path(temp_dir)
+        json_path = temp_dir / '/workspaces/reusable-rdf-resources/quantity-kinds.json'
+        url_list = ("http://qudt.org/vocab/quantitykind/AbsoluteActivity",
+        "http://qudt.org/vocab/quantitykind/AbsoluteHumidity",
+        "http://qudt.org/vocab/quantitykind/AbsorbedDose",
+        "http://qudt.org/vocab/quantitykind/AbsorbedDoseRate",
+        "http://qudt.org/vocab/quantitykind/Absorptance",
+        "http://qudt.org/vocab/quantitykind/Acceleration",)
 
-    update_json(json_path, url_list)
+        update_json(json_path, url_list)
 
-    with open(json_path, "r") as jsonFile:
-        data = json.load(jsonFile)
+        with open(json_path, "r") as jsonFile:
+            data = json.load(jsonFile)
 
-    no_duplicates = False
-    for url in data['uris']['enum']:
-        if data['uris']['enum'].count(url) <= 1:
-            no_duplicates = True
-    
-    assert no_duplicates == True
+        no_duplicates = False
+        for url in data['uris']['enum']:
+            if data['uris']['enum'].count(url) <= 1:
+                no_duplicates = True
+        
+        assert no_duplicates == True
 
 
 
