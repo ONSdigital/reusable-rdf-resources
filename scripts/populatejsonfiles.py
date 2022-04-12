@@ -82,7 +82,8 @@ def update_json(json_path: Path, url_list: List[str]):
     with open(json_path, "r") as jsonFile:
         data = json.load(jsonFile)
 
-        for url in url_list:
+        listed_urls = set(url_list)
+        for url in listed_urls:
             if url not in data["uris"]["enum"]:
                 data["uris"]["enum"].append(url)
 
