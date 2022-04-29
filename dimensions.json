@@ -4,7 +4,26 @@
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/dimensions/dimension"
+            "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod",
+            "http://purl.org/linked-data/sdmx/2009/dimension#age",
+            "http://purl.org/linked-data/sdmx/2009/dimension#civilStatus",
+            "http://purl.org/linked-data/sdmx/2009/dimension#currency",
+            "http://purl.org/linked-data/sdmx/2009/dimension#educationLev",
+            "http://purl.org/linked-data/sdmx/2009/dimension#freq",
+            "http://purl.org/linked-data/sdmx/2009/dimension#occupation",
+            "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
+            "http://purl.org/linked-data/sdmx/2009/dimension#sex",
+            "http://purl.org/linked-data/sdmx/2009/dimension#timePeriod",
+            "http://gss-data.org.uk/def/trade/property/dimension/flow-directions",
+            "http://gss-data.org.uk/def/trade/property/dimension/seasonal-adjustment",
+            "http://gss-data.org.uk/def/trade/property/dimension/account-type",
+            "http://gss-data.org.uk/def/trade/property/dimension/services",
+            "http://gss-data.org.uk/def/trade/property/dimension/employment-size-band",
+            "http://gss-data.org.uk/def/climate-change/property/dimension/section",
+            "http://gss-data.org.uk/def/trade/property/dimension/age-of-business",
+            "http://gss-data.org.uk/def/trade/property/dimension/international-trade-basis",
+            "http://gss-data.org.uk/def/trade/property/dimension/cdid",
+            "http://gss-data.org.uk/def/trade/property/dimension/ons-partner-geography"
         ]
     }
 }

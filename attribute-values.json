@@ -4,7 +4,32 @@
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/attributes-values/attribute-value"
+            "http://gss-data.org.uk/def/concept/measurement-units/gbp",
+        	"http://qudt.org/vocab/unit/KiloGM",
+        	"http://gss-data.org.uk/def/concept/measurement-units/residents",
+        	"http://gss-data.org.uk/def/concept/measurement-units/persons",
+        	"http://gss-data.org.uk/def/concept/measurement-units/deprivation",
+        	"http://gss-data.org.uk/def/concept/measurement-units/minutes",
+        	"http://gss-data.org.uk/def/concept/measurement-units/gbp-million",
+        	"http://gss-data.org.uk/def/concept/measurement-units/patients",
+        	"http://gss-data.org.uk/def/concept/measurement-units/indices",
+        	"http://gss-data.org.uk/def/concept/measurement-units/kilowatt-hour",
+        	"http://gss-data.org.uk/def/concept/measurement-units/thousands",
+        	"http://gss-data.org.uk/def/concept/measurement-units/children",
+        	"http://gss-data.org.uk/def/concept/measurement-units/deaths",
+        	"http://gss-data.org.uk/def/concept/measurement-units/businesses",
+        	"http://gss-data.org.uk/def/concept/measurement-units/properties",
+        	"http://gss-data.org.uk/def/concept/measurement-units/toe",
+        	"http://gss-data.org.uk/def/climate-change/concept/measurement-unit/degrees-centigrade",
+        	"http://gss-data.org.uk/def/concept/measurement-units/cases",
+        	"http://gss-data.org.uk/def/climate-change/concept/measurement-unit/millimetres",
+        	"http://gss-data.org.uk/def/concept/measurement-units/percent",
+            "http://gss-data.org.uk/def/concept/cogs-markers/suppressed",
+            "http://gss-data.org.uk/def/concept/cogs-markers/estimated",
+            "http://gss-data.org.uk/def/concept/cogs-markers/disclosive",
+            "http://gss-data.org.uk/def/concept/cogs-markers/unknown",
+            "http://gss-data.org.uk/def/concept/cogs-markers/itis-nil",
+            "http://gss-data.org.uk/def/concept/trade/markers/provisional"
         ]
     }
 }
