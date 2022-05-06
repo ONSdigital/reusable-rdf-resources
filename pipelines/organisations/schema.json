@@ -35,7 +35,7 @@
                     "titles": "description",
                     "datatype": "string",
                     "lang": "en",
-                    "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#description"
+                    "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#comment"
                 },
                 {
                     "name": "parent_organisations",
