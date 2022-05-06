@@ -3,16 +3,11 @@ pipeline {
             label 'master'
         }
 
-        environment {
-            THIS_DIR = "${pwd()}"
-            OUT = "${THIS_DIR}/out"
-        }
-
         stages {
             stage('Clean') {
                 steps {
                     script {
-                        sh "rm -rf ${OUT}"
+                        sh "rm -rf out/organisations"
                     }
                 }
             }
@@ -28,7 +23,8 @@ pipeline {
 
                 steps {
                     script {
-                        sh "csvlint -s ${THIS_DIR}/schema.json"
+                        sh "ls -l"
+                        sh "csvlint -s ./pipelines/organisations/schema.json"
                     }
                 }
             }
@@ -44,9 +40,11 @@ pipeline {
 
                 steps {
                     script {
-                        sh "csv2rdf -t ${THIS_DIR}/organisations.csv -u ${THIS_DIR}/schema.json -m annotated > ${OUT}/output.ttl"
+                        sh "mkdir out/organisations"
+                        sh "csv2rdf -t ./pipelines/organisations/organisations.csv -u ./pipelines/organisations/schema.json -m annotated > .out/organisations/organisations.ttl"
                     }
                 }
             }
         }
 }
+
