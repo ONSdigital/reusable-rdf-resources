@@ -1,69 +1,69 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/csvw",
-    {
-      "@language": "en"
-    }
-  ],
-  "tables": [
-    {
-        "url": "organisations.csv",
-        "tableSchema": {
-            "columns": [
-                {
-                    "name": "organisation",
-                    "titles": "organisation",
-                    "datatype": "string",
-                    "suppressOutput": true
-                },
-                {
-                    "name": "label",
-                    "titles": "label",
-                    "datatype": "string",
-                    "lang": "en",
-                    "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label"
-                },
-                {
-                    "name": "altLabel",
-                    "titles": "altLabel",
-                    "datatype": "string",
-                    "lang": "en",
-                    "propertyUrl": "http://www.w3.org/2004/02/skos/core#altLabel"
-                },
-                {
-                    "name": "description",
-                    "titles": "description",
-                    "datatype": "string",
-                    "lang": "en",
-                    "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#comment"
-                },
-                {
-                    "name": "parent_organisations",
-                    "titles": "parent_organisations",
-                    "datatype": "string",
-                    "propertyUrl": "https://www.gov.uk/government/organisations#subOrganizationOf"
-                },
-                {
-                    "name": "hasRegisteredSite",
-                    "titles": "hasRegisteredSite",
-                    "datatype": "string",
-                    "propertyUrl": "https://www.gov.uk/government/organisations#hasRegisteredSite"
-                },
-                {
-                    "name": "hasPrimarySite",
-                    "titles": "hasPrimarySite",
-                    "datatype": "string",
-                    "propertyUrl": "https://www.gov.uk/government/organisations#hasPrimarySite"
-                },
-                {
-                    "name": "virt_type",
-                    "virtual": true,
-                    "propertyUrl": "rdf:type",
-                    "valueUrl": "http://www.w3.org/ns/org#Organization"
-                }
-            ]
-        },
-        "aboutUrl": "{+organisation}"
-    }
-]
-}
+    "@context": [
+      "http://www.w3.org/ns/csvw",
+      {
+        "@language": "en"
+      }
+    ],
+    "tables": [
+      {
+          "url": "organisations.csv",
+          "tableSchema": {
+              "columns": [
+                  {
+                      "name": "organisation",
+                      "titles": "organisation",
+                      "datatype": "string",
+                      "suppressOutput": true
+                  },
+                  {
+                      "name": "label",
+                      "titles": "label",
+                      "datatype": "string",
+                      "lang": "en",
+                      "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label"
+                  },
+                  {
+                      "name": "altLabel",
+                      "titles": "altLabel",
+                      "datatype": "string",
+                      "lang": "en",
+                      "propertyUrl": "http://www.w3.org/2004/02/skos/core#altLabel"
+                  },
+                  {
+                      "name": "description",
+                      "titles": "description",
+                      "datatype": "string",
+                      "lang": "en",
+                      "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#comment"
+                  },
+                  {
+                      "name": "parent_organisations",
+                      "titles": "parent_organisations",
+                      "datatype": "string",
+                      "propertyUrl": "https://www.gov.uk/government/organisations#subOrganizationOf"
+                  },
+                  {
+                      "name": "hasRegisteredSite",
+                      "titles": "hasRegisteredSite",
+                      "datatype": "string",
+                      "propertyUrl": "https://www.gov.uk/government/organisations#hasRegisteredSite"
+                  },
+                  {
+                      "name": "hasPrimarySite",
+                      "titles": "hasPrimarySite",
+                      "datatype": "string",
+                      "propertyUrl": "https://www.gov.uk/government/organisations#hasPrimarySite"
+                  },
+                  {
+                      "name": "virt_type",
+                      "virtual": true,
+                      "propertyUrl": "rdf:type",
+                      "valueUrl": "http://www.w3.org/ns/org#Organization"
+                  }
+              ]
+          },
+          "aboutUrl": "{+organisation}"
+      }
+  ]
+  }

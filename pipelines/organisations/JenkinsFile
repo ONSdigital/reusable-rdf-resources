@@ -1,0 +1,52 @@
+pipeline {
+        agent {
+            label 'master'
+        }
+
+        environment {
+            THIS_DIR = "${pwd()}"
+            OUT = "${THIS_DIR}/out"
+        }
+
+        stages {
+            stage('Clean') {
+                steps {
+                    script {
+                        sh "rm -rf ${OUT}"
+                    }
+                }
+            }
+
+            stage('csvlint') {
+                agent {
+                        docker {
+                            image 'gsscogs/csvlint'
+                            reuseNode true
+                            alwaysPull true
+                        }
+                    }
+
+                steps {
+                    script {
+                        sh "csvlint -s schema.json"
+                    }
+                }
+            }
+
+            stage('csv2rdf') {
+                agent {
+                        docker {
+                            image 'gsscogs/csv2rdf'
+                            reuseNode true
+                            alwaysPull true
+                        }
+                    }
+
+                steps {
+                    script {
+                        sh "csv2rdf -t ./organisations.csv -u ./schema.json -m annotated > ${OUT}/output.ttl"
+                    }
+                }
+            }
+        }
+}

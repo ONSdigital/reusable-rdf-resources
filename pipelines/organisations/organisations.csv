@@ -1,4 +1,4 @@
-organization,label,altLabel,description,parent_organisations,hasRegisteredSite,hasPrimarySite
+organisation,label,altLabel,description,parent_organisations,hasRegisteredSite,hasPrimarySite
 http://statistics.data.gov.uk,ONS Geography Linked Data,,,,,http://statistics.data.gov.uk
 https://statswales.gov.wales,StatsWales,,,https://www.gov.uk/government/organisations/welsh-government,,https://statswales.gov.wales
 https://www.gov.scot/about/how-government-is-run/directorates/housing-and-social-justice,Scottish Government: Housing and Social Justice Directorate,,"We work to ensure that everyone living in Scotland has a high-quality, sustainable home they can afford and that meets their needs. We also work with communities and others to tackle poverty and to make Scotland fairer.",https://www.gov.uk/government/organisations/the-scottish-government,,
