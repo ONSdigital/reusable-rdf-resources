@@ -11,17 +11,12 @@
           "tableSchema": {
               "columns": [
                   {
-                      "name": "organisation",
-                      "titles": "organisation",
-                      "datatype": "string",
-                      "suppressOutput": true
-                  },
-                  {
                       "name": "label",
                       "titles": "label",
                       "datatype": "string",
                       "lang": "en",
-                      "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label"
+                      "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+                      "required": true
                   },
                   {
                       "name": "altLabel",
@@ -41,19 +36,20 @@
                       "name": "parent_organisations",
                       "titles": "parent_organisations",
                       "datatype": "string",
-                      "propertyUrl": "https://www.gov.uk/government/organisations#subOrganizationOf"
+                      "propertyUrl": "http://www.w3.org/ns/org#subOrganizationOf"
                   },
                   {
                       "name": "hasRegisteredSite",
                       "titles": "hasRegisteredSite",
                       "datatype": "string",
-                      "propertyUrl": "https://www.gov.uk/government/organisations#hasRegisteredSite"
+                      "propertyUrl": "http://www.w3.org/ns/org#hasRegisteredSite",
+                      "required": true
                   },
                   {
                       "name": "hasPrimarySite",
                       "titles": "hasPrimarySite",
                       "datatype": "string",
-                      "propertyUrl": "https://www.gov.uk/government/organisations#hasPrimarySite"
+                      "propertyUrl": "http://www.w3.org/ns/org#hasPrimarySite"
                   },
                   {
                       "name": "virt_type",
@@ -63,7 +59,7 @@
                   }
               ]
           },
-          "aboutUrl": "{+organisation}"
+          "aboutUrl": "{+hasRegisteredSite}"
       }
   ]
   }
