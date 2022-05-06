@@ -5,14 +5,56 @@
             "type": "string",
             "format": "uri",
             "enum": [
-                "http://example.com/attributes/attribute-with-literal-values"
             ]
         },
         "resourceValues": {
             "type": "string",
             "format": "uri",
             "enum": [
-                "http://example.com/attributes/attribute-with-resource-values"
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+                "http://purl.org/linked-data/sdmx/2009/attribute#profMeth",
+                "http://purl.org/linked-data/sdmx/2009/attribute#profImp",
+                "http://purl.org/linked-data/sdmx/2009/attribute#punctuality",
+                "http://purl.org/linked-data/sdmx/2009/attribute#profStatCom",
+                "http://purl.org/linked-data/sdmx/2009/attribute#origDataId",
+                "http://purl.org/linked-data/sdmx/2009/attribute#obsPreBreak",
+                "http://purl.org/linked-data/sdmx/2009/attribute#profCond",
+                "http://purl.org/linked-data/sdmx/2009/attribute#prof",
+                "http://purl.org/linked-data/sdmx/2009/attribute#refPerWgts",
+                "http://purl.org/linked-data/sdmx/2009/attribute#recording",
+                "http://purl.org/linked-data/sdmx/2009/attribute#relPolLegActs",
+                "http://purl.org/linked-data/sdmx/2009/attribute#relPolicy",
+                "http://purl.org/linked-data/sdmx/2009/attribute#qualityAssmnt",
+                "http://purl.org/linked-data/sdmx/2009/attribute#qualityMgmnt",
+                "http://purl.org/linked-data/sdmx/2009/attribute#qualityDoc",
+                "http://purl.org/linked-data/sdmx/2009/attribute#qualityAssure",
+                "http://purl.org/linked-data/sdmx/2009/attribute#freqDiss",
+                "http://purl.org/linked-data/sdmx/2009/attribute#grossNet",
+                "http://purl.org/linked-data/sdmx/2009/attribute#freqColl",
+                "http://purl.org/linked-data/sdmx/2009/attribute#instMandate",
+                "http://purl.org/linked-data/sdmx/2009/attribute#indType",
+                "http://purl.org/linked-data/sdmx/2009/attribute#advNotice",
+                "http://purl.org/linked-data/sdmx/2009/attribute#docMethod",
+                "http://purl.org/linked-data/sdmx/2009/attribute#freqDetail",
+                "http://purl.org/linked-data/sdmx/2009/attribute#embargoTime",
+                "http://purl.org/linked-data/sdmx/2009/attribute#metaCertified",
+                "http://purl.org/linked-data/sdmx/2009/attribute#metaUpdate",
+                "http://purl.org/linked-data/sdmx/2009/attribute#metaLastUpdate",
+                "http://purl.org/linked-data/sdmx/2009/attribute#metaPosted",
+                "http://purl.org/linked-data/sdmx/2009/attribute#instManLaOa",
+                "http://purl.org/linked-data/sdmx/2009/attribute#instManShar",
+                "http://purl.org/linked-data/sdmx/2009/attribute#mAgency",
+                "http://purl.org/linked-data/sdmx/2009/attribute#iMResRel",
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMult",
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasDetail",
+                "http://purl.org/linked-data/sdmx/2009/attribute#title",
+                "http://gss-data.org.uk/def/trade/property/attribute/marker",
+                "http://purl.org/linked-data/sdmx/2009/attribute#valuation",
+                "http://purl.org/linked-data/sdmx/2009/attribute#timeliness",
+                "http://purl.org/linked-data/sdmx/2009/attribute#timePerCollect",
+                "http://purl.org/linked-data/sdmx/2009/attribute#timeSource",
+                "http://purl.org/linked-data/sdmx/2009/attribute#timeOutput"
             ]
         }
     }
