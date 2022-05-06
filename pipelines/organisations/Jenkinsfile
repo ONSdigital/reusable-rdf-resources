@@ -23,7 +23,6 @@ pipeline {
 
                 steps {
                     script {
-                        sh "ls -l"
                         sh "csvlint -s ./pipelines/organisations/schema.json"
                     }
                 }
