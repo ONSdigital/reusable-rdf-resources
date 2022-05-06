@@ -49,7 +49,6 @@ pipeline {
         post {
             always {
                 script {
-                    sh "ls -l"
                     archiveArtifacts artifacts: "out/organisations/organisations.ttl"
                 }
             }
