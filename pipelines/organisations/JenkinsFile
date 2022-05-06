@@ -28,7 +28,7 @@ pipeline {
 
                 steps {
                     script {
-                        sh "csvlint -s schema.json"
+                        sh "csvlint -s ${THIS_DIR}/schema.json"
                     }
                 }
             }
@@ -44,7 +44,7 @@ pipeline {
 
                 steps {
                     script {
-                        sh "csv2rdf -t ./organisations.csv -u ./schema.json -m annotated > ${OUT}/output.ttl"
+                        sh "csv2rdf -t ${THIS_DIR}/organisations.csv -u ${THIS_DIR}/schema.json -m annotated > ${OUT}/output.ttl"
                     }
                 }
             }
