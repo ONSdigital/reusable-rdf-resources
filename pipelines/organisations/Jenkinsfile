@@ -40,7 +40,7 @@ pipeline {
 
                 steps {
                     script {
-                        sh "mkdir out/organisations"
+                        sh "mkdir -p out/organisations"
                         sh "csv2rdf -t ./pipelines/organisations/organisations.csv -u ./pipelines/organisations/schema.json -m annotated > .out/organisations/organisations.ttl"
                     }
                 }
