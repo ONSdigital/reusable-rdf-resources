@@ -4,7 +4,16 @@
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/attributes-values/attribute-value"
+            "http://gss-data.org.uk/def/concept/cogs-markers/suppressed",
+            "http://gss-data.org.uk/def/concept/cogs-markers/estimated",
+            "http://gss-data.org.uk/def/concept/cogs-markers/disclosive",
+            "http://gss-data.org.uk/def/concept/cogs-markers/confidential",
+            "http://gss-data.org.uk/def/concept/cogs-markers/not-applicable",
+            "http://gss-data.org.uk/def/concept/cogs-markers/imputed",
+            "http://gss-data.org.uk/def/concept/cogs-markers/not-available",
+            "http://gss-data.org.uk/def/concept/cogs-markers/provisional",
+            "http://gss-data.org.uk/def/concept/cogs-markers/revised",
+            "http://gss-data.org.uk/def/concept/cogs-markers/under-review"
         ]
     }
 }

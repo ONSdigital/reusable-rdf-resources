@@ -4,7 +4,17 @@
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/measures/measure"
+            "http://gss-data.org.uk/def/measure/count",
+            "http://gss-data.org.uk/def/measure/travel-time",
+            "http://gss-data.org.uk/def/measure/expenditure",
+            "http://gss-data.org.uk/def/measure/sales",
+            "http://gss-data.org.uk/def/measure/median-costs",
+            "http://gss-data.org.uk/def/measure/median-floor-area",
+            "http://gss-data.org.uk/def/measure/median-income",
+            "http://gss-data.org.uk/def/trade/measure/monetary-value",
+            "http://gss-data.org.uk/def/measure/tariff",
+            "http://gss-data.org.uk/def/measure/ranks",
+            "http://gss-data.org.uk/def/trade/measure/index"
         ]
     }
 }

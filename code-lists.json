@@ -4,7 +4,11 @@
         "type": "string",
         "format": "uri",
         "enum": [
-            "http://example.com/code-lists/code-list"
+            "http://data.europa.eu/nuts/scheme/2016",
+            "http://data.europa.eu/nuts/scheme/2013",
+            "http://data.europa.eu/nuts/scheme/2010",
+            "http://purl.org/linked-data/sdmx/2009/code#sex",
+            "http://purl.org/linked-data/sdmx/2009/code#freq"
         ]
     }
 }
