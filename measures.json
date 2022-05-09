@@ -5,28 +5,15 @@
         "format": "uri",
         "enum": [
             "http://gss-data.org.uk/def/measure/count",
-            "http://gss-data.org.uk/def/climate-change/measure/rainfall",
             "http://gss-data.org.uk/def/measure/travel-time",
-            "http://gss-data.org.uk/def/measure/current-prices",
-            "http://gss-data.org.uk/def/measure/bop-current-account",
             "http://gss-data.org.uk/def/measure/expenditure",
-            "http://gss-data.org.uk/def/measure/aggregate-fuel-poverty-gap",
-            "http://gss-data.org.uk/def/measure/average-fuel-poverty-gap",
             "http://gss-data.org.uk/def/measure/sales",
             "http://gss-data.org.uk/def/measure/median-costs",
-            "http://gss-data.org.uk/def/measure/median-rating",
-            "http://gss-data.org.uk/def/measure/gross-caloric-values",
             "http://gss-data.org.uk/def/measure/median-floor-area",
             "http://gss-data.org.uk/def/measure/median-income",
             "http://gss-data.org.uk/def/trade/measure/monetary-value",
             "http://gss-data.org.uk/def/measure/tariff",
-            "http://gss-data.org.uk/def/measure/actual-income",
-            "http://gss-data.org.uk/def/trade/measure/primary-income",
-            "http://gss-data.org.uk/def/trade/measure/secondary-income",
-            "http://gss-data.org.uk/def/measure/deprivation-rank",
             "http://gss-data.org.uk/def/measure/ranks",
-            "http://gss-data.org.uk/def/trade/measure/index-series",
-            "http://gss-data.org.uk/def/trade/measure/index-deflator-series",
             "http://gss-data.org.uk/def/trade/measure/index"
         ]
     }

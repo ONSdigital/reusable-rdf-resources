@@ -7,26 +7,13 @@
             "http://gss-data.org.uk/def/concept/cogs-markers/suppressed",
             "http://gss-data.org.uk/def/concept/cogs-markers/estimated",
             "http://gss-data.org.uk/def/concept/cogs-markers/disclosive",
-            "http://gss-data.org.uk/def/concept/cogs-markers/unknown",
-            "http://gss-data.org.uk/def/concept/cogs-markers/itis-nil",
-            "http://gss-data.org.uk/def/concept/trade/markers/provisional",
-            "http://gss-data.org.uk/def/concept/cogs-markers/suppressed-or-population-zero",
             "http://gss-data.org.uk/def/concept/cogs-markers/confidential",
-            "http://gss-data.org.uk/def/concept/trade/markers/not-applicable",
             "http://gss-data.org.uk/def/concept/cogs-markers/not-applicable",
-            "http://gss-data.org.uk/def/concept/trade/markers/data-not-provided",
             "http://gss-data.org.uk/def/concept/cogs-markers/imputed",
-            "http://gss-data.org.uk/def/concept/cogs-markers/no-data-submitted",
-            "http://gss-data.org.uk/def/concept/trade/markers/not-available",
-            "http://gss-data.org.uk/def/concept/cogs-markers/not-collated",
-            "http://gss-data.org.uk/def/concept/cogs-markers/between-1-and-7",
-            "http://gss-data.org.uk/def/concept/cogs-markers/-",
             "http://gss-data.org.uk/def/concept/cogs-markers/not-available",
-            "http://gss-data.org.uk/def/concept/cogs-markers/nil-or-less-than-a-million",
-            "http://gss-data.org.uk/def/concept/cogs-markers/not-avilable",
-            "http://gss-data.org.uk/def/concept/cogs-markers/n/a",
-            "http://gss-data.org.uk/def/concept/cogs-markers/none",
-            "http://gss-data.org.uk/def/concept/cogs-markers/low-sample-count"
+            "http://gss-data.org.uk/def/concept/cogs-markers/provisional",
+            "http://gss-data.org.uk/def/concept/cogs-markers/revised",
+            "http://gss-data.org.uk/def/concept/cogs-markers/under-review"
         ]
     }
 }
