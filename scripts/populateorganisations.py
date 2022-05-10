@@ -1,3 +1,12 @@
+"""
+Populate Organisations
+----------------------
+
+Run this script from the top level of the repository to populate the `organisations.json` with the URIs defined in 
+ `rdf-definitions/organisations/organisations.csv`.
+
+"""
+
 from pathlib import Path
 import json
 import logging
@@ -9,7 +18,12 @@ _column_name_to_extract = "Identifier (registered site)"
 logger = logging.getLogger(__name__)
 
 
-def populate_organisations(csv_input: Path, json_output: Path):
+def populate_organisations(csv_input: Path, json_output: Path) -> None:
+    """
+    Populate the JSON schema enum definition in :obj:`json_output` with the Organisation URIs defined
+      in :obj:`csv_input`.
+    """
+
     organisation_uris = list(pd.read_csv(csv_input)[_column_name_to_extract])
 
     logger.debug("Acquired organisations from CSV file.")
