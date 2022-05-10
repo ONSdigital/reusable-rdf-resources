@@ -11,44 +11,41 @@
           "tableSchema": {
               "columns": [
                   {
+                      "titles": "Label",
                       "name": "label",
-                      "titles": "label",
                       "datatype": "string",
                       "lang": "en",
                       "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
                       "required": true
                   },
                   {
+                      "titles": "Short Label",
                       "name": "altLabel",
-                      "titles": "altLabel",
                       "datatype": "string",
                       "lang": "en",
                       "propertyUrl": "http://www.w3.org/2004/02/skos/core#altLabel"
                   },
                   {
+                      "titles": "Description",
                       "name": "description",
-                      "titles": "description",
                       "datatype": "string",
                       "lang": "en",
                       "propertyUrl": "http://www.w3.org/2000/01/rdf-schema#comment"
                   },
                   {
-                      "name": "parent_organisations",
-                      "titles": "parent_organisations",
-                      "datatype": "string",
+                      "titles": "Parent Organisation",
+                      "name": "parent_organisation",
                       "propertyUrl": "http://www.w3.org/ns/org#subOrganizationOf"
                   },
                   {
-                      "name": "hasRegisteredSite",
-                      "titles": "hasRegisteredSite",
-                      "datatype": "string",
+                      "titles": "Identifier (registered site)",
+                      "name": "identifier",
                       "propertyUrl": "http://www.w3.org/ns/org#hasRegisteredSite",
                       "required": true
                   },
                   {
-                      "name": "hasPrimarySite",
-                      "titles": "hasPrimarySite",
-                      "datatype": "string",
+                      "titles": "Primary Website",
+                      "name": "primary_website",
                       "propertyUrl": "http://www.w3.org/ns/org#hasPrimarySite"
                   },
                   {
@@ -59,7 +56,7 @@
                   }
               ]
           },
-          "aboutUrl": "{+hasRegisteredSite}"
+          "aboutUrl": "{+identifier}"
       }
   ]
   }

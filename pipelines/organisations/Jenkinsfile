@@ -7,7 +7,7 @@ pipeline {
             stage('Clean') {
                 steps {
                     script {
-                        sh "rm -rf out/organisations"
+                        sh "rm -rf out"
                     }
                 }
             }
@@ -23,7 +23,7 @@ pipeline {
 
                 steps {
                     script {
-                        sh "csvlint -s ./pipelines/organisations/schema.json"
+                        sh "csvlint -s ./rdf-definitions/organisations/organisations.csv-metadata.json"
                     }
                 }
             }
@@ -31,7 +31,7 @@ pipeline {
             stage('csv2rdf') {
                 agent {
                         docker {
-                            image 'gsscogs/csv2rdf'
+                            image 'gsscogs/csv2rdf:native'
                             reuseNode true
                             alwaysPull true
                         }
@@ -39,8 +39,10 @@ pipeline {
 
                 steps {
                     script {
-                        sh "mkdir -p out/organisations"
-                        sh "csv2rdf -t ./pipelines/organisations/organisations.csv -u ./pipelines/organisations/schema.json -m annotated > ./out/organisations/organisations.ttl"
+                        sh "mkdir -p ${WORKSPACE}/out/organisations"
+                        dir("rdf-definitions/organisations") {
+                            sh "csv2rdf -u organisations.csv-metadata.json -m annotated > ${WORKSPACE}/out/organisations/organisations.ttl"
+                        }
                     }
                 }
             }
@@ -48,7 +50,7 @@ pipeline {
         post {
             always {
                 script {
-                    archiveArtifacts artifacts: "out/organisations/organisations.ttl"
+                    archiveArtifacts artifacts: "out/**/*"
                 }
             }
         }
