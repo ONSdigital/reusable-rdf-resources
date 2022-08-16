@@ -1,57 +1,6 @@
-pipeline {
-        agent {
-            label 'master'
-        }
+@Library('pmd@muazzamissue87') _
 
-        stages {
-            stage('Clean') {
-                steps {
-                    script {
-                        sh "rm -rf out"
-                    }
-                }
-            }
-
-            stage('csvlint') {
-                agent {
-                        docker {
-                            image 'gsscogs/csvlint'
-                            reuseNode true
-                            alwaysPull true
-                        }
-                    }
-
-                steps {
-                    script {
-                        sh "csvlint -s ./rdf-definitions/organisations/organisations.csv-metadata.json"
-                    }
-                }
-            }
-
-            stage('csv2rdf') {
-                agent {
-                        docker {
-                            image 'gsscogs/csv2rdf:native'
-                            reuseNode true
-                            alwaysPull true
-                        }
-                    }
-
-                steps {
-                    script {
-                        sh "mkdir -p ${WORKSPACE}/out/organisations"
-                        dir("rdf-definitions/organisations") {
-                            sh "csv2rdf -u organisations.csv-metadata.json -m annotated > ${WORKSPACE}/out/organisations/organisations.ttl"
-                        }
-                    }
-                }
-            }
-        }
-        post {
-            always {
-                script {
-                    archiveArtifacts artifacts: "out/**/*"
-                }
-            }
-        }
+csvw2pmd {
+    csvwFilesDir = "organisations/"
+    shouldPublish = true
 }
