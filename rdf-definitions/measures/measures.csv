@@ -1,0 +1,3 @@
+Identifier,Label,Description,Parent URI,Data Type,Human Readable Definition URI
+time,Time,Abstract measure covering the concept of time,,,
+instant,Instant,A particular point in time,#time,xsd:dateTimeStamp,
