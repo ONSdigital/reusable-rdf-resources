@@ -1,0 +1,74 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en",
+            "@base": "https://purl.org/csv-cubed/resources/measures"
+        }
+    ],
+    "tables": [
+        {
+            "url": "",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "titles": "Identifiier",
+                        "name": "identifier",
+                        "required": true,
+                        "suppressOutput": true
+                    },
+                    {
+                        "titles": "Label",
+                        "name": "label",
+                        "datatype": "string",
+                        "lang": "en",
+                        "propertyUrl": "rdfs:label",
+                        "required": true
+                    },
+                    {
+                        "titles": "Description",
+                        "name": "description",
+                        "datatype": "string",
+                        "lang": "en",
+                        "propertyUrl": "rdfs:comment",
+                        "required": false
+                    },
+                    {
+                        "titles": "Parent URI",
+                        "name": "parent_uri",
+                        "propertyUrl": "rdfs:subPropertyOf",
+                        "valueUrl": "{+parent_uri}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Data Type",
+                        "name": "data_type_uri",
+                        "propertyUrl": "rdfs:range",
+                        "valueUrl": "{+data_type_uri}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Human Readable Definition URI",
+                        "name": "definition_uri",
+                        "propertyUrl": "rdfs:isDefinedBy",
+                        "valueUrl": "{+definition_uri}",
+                        "required": false
+                    },
+                    {
+                        "name": "virt_type",
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "rdfs:Property"
+                    },
+                    {
+                        "name": "virt_type_qb",
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "http://purl.org/linked-data/cube#MeasureProperty"
+                    }
+                ]
+            },
+            "aboutUrl": "#{+identifier}"
+        }
+    ]
+}
