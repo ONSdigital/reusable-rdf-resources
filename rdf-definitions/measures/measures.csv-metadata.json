@@ -12,7 +12,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "titles": "Identifiier",
+                        "titles": "Identifier",
                         "name": "identifier",
                         "required": true,
                         "suppressOutput": true
