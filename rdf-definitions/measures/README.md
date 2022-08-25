@@ -10,6 +10,6 @@ It is suggested that these measures not be used directly, but used as a parent m
 
 This is currently a non-versioned hiearchy as such the resources are subject to change. The intent is that every node will remain addressable as these measures are created/discovered; however they may be reorganised in a way where a node's location with the hiearchy may change.
 
-The draft hierarchy can be found [on Miro](https://miro.com/app/board/uXjVPco-cCs=/?share_link_id=366659006253). Resources in grey have not been created, and resources in brackets are not meant to be used directly.
+The draft hierarchy can be found [on Miro](https://miro.com/app/board/uXjVPco-cCs=/?share_link_id=366659006253). Resources in grey have not been created, and resources in brackets are not meant to be used directly. The promise of keeping resources regardless of reoganisation does not apply to resources in brackets.
 
-e.g. the resource #herds right now is a child of #animalPopulation, #herds may be moved up a level to a child of #population at a later date but #herds will remain addressable regardless.
+e.g. the resource #herds right now is a child of #animal-population, #herds may be moved up a level to a child of #population at a later date but #herds will remain addressable regardless.
