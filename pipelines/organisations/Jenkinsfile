@@ -1,6 +1,6 @@
 @Library('pmd@muazzamissue87') _
 
 csvw2pmd {
-    csvwFilesDir = "organisations"
+    csvwFilesDir = "rdf-definitions/organisations"
     shouldPublish = true
 }
