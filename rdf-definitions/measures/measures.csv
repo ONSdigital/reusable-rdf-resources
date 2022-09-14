@@ -7,3 +7,8 @@ ambulance-response-time,Ambulance Response Time,The period of time taken from re
 non-emergency-police-response-time,Non-emergency Police Response Time,The period of time taken from request to arrival of police for a non-emergency,#response-time,,
 wait-time,Wait Time,A period of time queued for service,#elapsed-time,,
 hold-time,Hold Time,The period of time queued to speak to an agent on the telephone,#wait-time,,
+count,Count,A count,,,
+flights,Count of flights,A count of flights,#count,,
+7-day-average-flights,7 Day Average Count of Flights,A rolling 7 day average count of flights,#flights,,
+sales-value,Sales Value,Sum of sales transactional value,,,
+indexed-sales-value,Index Sales Value,Index of sales transactional value,#sales-value,,
