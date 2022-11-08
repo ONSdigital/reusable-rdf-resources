@@ -1,0 +1,5 @@
+Identifier,Label,Description,Parent URI,Human Readable Definition URI
+all,All,,,
+0,Male,get ONS definition (ask JJ),#all,put link to ONS definiont/glossary
+1,Female,,,
+,Other,,,
