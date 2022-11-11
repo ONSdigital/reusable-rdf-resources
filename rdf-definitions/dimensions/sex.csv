@@ -1,5 +1,6 @@
 Identifier,Label,Description,Parent URI,Human Readable Definition URI
-all,All,,,
-1,Male,get ONS definition (ask JJ),#all,https://www.ons.gov.uk/aboutus/transparencyandgovernance/freedomofinformationfoi/onsaccepteddefinitionoffemalemalewomanandman
-2,Female,get ONS definition (ask JJ),#all,https://www.ons.gov.uk/aboutus/transparencyandgovernance/freedomofinformationfoi/onsaccepteddefinitionoffemalemalewomanandman
-3,Other,get ONS definition (ask JJ),#all,https://www.ons.gov.uk/aboutus/transparencyandgovernance/freedomofinformationfoi/onsaccepteddefinitionoffemalemalewomanandman
+all,All,Includes all sexes,,https://analysisfunction.civilservice.gov.uk/policy-store/sex-and-gender/
+1,Male,Male,#all,https://analysisfunction.civilservice.gov.uk/policy-store/sex-and-gender/
+2,Female,Female,#all,https://analysisfunction.civilservice.gov.uk/policy-store/sex-and-gender/
+3,Prefer not to say,Individual chose not to state a sex,#all,https://analysisfunction.civilservice.gov.uk/policy-store/sex-and-gender/
+4,Prefer to self-describe,Individual chose to self-describe their sex,#all,https://analysisfunction.civilservice.gov.uk/policy-store/sex-and-gender/
