@@ -2,6 +2,7 @@ Identifier,Label,Description,Parent URI,Data Type,Human Readable Definition URI
 time,Time,Abstract measure covering the concept of time,,,
 instant,Instant,A particular point in time,#time,xsd:dateTimeStamp,
 count,Count,A count of events or things,,,
+index,Index,An index calculation of of a base,,,
 elapsed-time,Elapsed Time,A period of time,#time,,
 response-time,Reponse Time,A period of time taken to respond to a request,#elapsed-time,,
 ambulance-response-time,Ambulance Response Time,The period of time taken from request to arrival of an ambulance,#response-time,,
