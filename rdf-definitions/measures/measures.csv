@@ -18,3 +18,5 @@ indexed-sales-value,Index Sales Value,Index of sales transactional value,#sales-
 number-of-visits-to-port,Number of Visits to Port,A count of ship visits to port,,,
 number-of-unique-ships,Number of Unique Ship,A count of unique ships,#number-of-visits-to-port,,
 count-of-companies,Count of Companies,A Count of Companies,#count,,
+gross-weekly-pay,gross weekly pay - Lower Confidence Interval (95%),Lower confidence interval gross weekly pay,,,
+gross-weekly-pay,gross weekly pay - Upper Confidence Interval (95%),Upper confidence interval gross weekly pay,,,
