@@ -15,3 +15,7 @@ This is currently a non-versioned hiearchy as such the resources are subject to 
 The draft hierarchy can be found [on Miro](https://miro.com/app/board/uXjVPco-cCs=/?share_link_id=366659006253). Resources in grey have not been created, and resources in brackets are not meant to be used directly. The promise of keeping resources regardless of reoganisation does not apply to resources in brackets.
 
 e.g. the resource #herds right now is a child of #animal-population, #herds may be moved up a level to a child of #population at a later date but #herds will remain addressable regardless.
+
+## Using these measures
+
+Take the value the in the "identifier" column for the measure you want to use with the prefix `https://purl.org/csv-cubed/resources/measures`, e.g. `https://purl.org/csv-cubed/resources/measures#people`.
