@@ -22,3 +22,7 @@ monetary-count,Amount of Money,A monetary count,#count,,
 employment-income,Employment Income,The amount of money earned for employment,#monetary-count,,
 gross-weekly-pay,Gross Weekly Pay,Gross weekly pay,#employment-income,,
 people-in-employment,People in Employment,People who are in paid or who are employeed but on temporary leave,#people,,
+area,Area,Area,,,
+size-area,Size of Land Area,The size of an area of land,#area,,
+travel-time,Travel Time,The elapsed time to travel from a given start to destination,#elapsed-time,,
+
