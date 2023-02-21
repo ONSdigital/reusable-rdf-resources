@@ -29,7 +29,9 @@
             "https://purl.org/csv-cubed/resources/measures#people-in-employment",
             "https://purl.org/csv-cubed/resources/measures#area",
             "https://purl.org/csv-cubed/resources/measures#size-area",
-            "https://purl.org/csv-cubed/resources/measures#travel-time"
+            "https://purl.org/csv-cubed/resources/measures#travel-time",
+            "https://purl.org/csv-cubed/resources/measures#portion",
+            "https://purl.org/csv-cubed/resources/measures#portion-of-population"
         ]
     }
 }
