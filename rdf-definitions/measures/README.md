@@ -18,4 +18,4 @@ e.g. the resource #herds right now is a child of #animal-population, #herds may 
 
 ## Using these measures
 
-Take the value the in the "identifier" column for the measure you want to use with the prefix `https://purl.org/csv-cubed/resources/measures`, e.g. `https://purl.org/csv-cubed/resources/measures#people`.
+Take the value the in the "identifier" column for the measure you want to use with the prefix `https://purl.org/csv-cubed/resources/measures#`, e.g. `https://purl.org/csv-cubed/resources/measures#people`.
