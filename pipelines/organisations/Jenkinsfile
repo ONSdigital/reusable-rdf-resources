@@ -2,5 +2,5 @@
 
 csvw2pmd {
     csvwFilesDir = ["rdf-definitions/organisations","rdf-definitions/measures"]
-    shouldPublish = false
+    shouldPublish = true
 }
