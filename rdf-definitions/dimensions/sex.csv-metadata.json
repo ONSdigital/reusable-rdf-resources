@@ -41,6 +41,13 @@
                         "required": false
                     },
                     {
+                        "titles": "SameAs URI",
+                        "name": "sameas_uri",
+                        "propertyUrl": "owl:sameAs",
+                        "valueUrl": "{+sameas_uri}",
+                        "required": false
+                    },
+                    {
                         "titles": "Human Readable Definition URI",
                         "name": "definition_uri",
                         "propertyUrl": "rdfs:isDefinedBy",
