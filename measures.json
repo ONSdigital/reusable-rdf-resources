@@ -32,7 +32,9 @@
             "https://purl.org/csv-cubed/resources/measures#travel-time",
             "https://purl.org/csv-cubed/resources/measures#portion",
             "https://purl.org/csv-cubed/resources/measures#portion-of-population",
-            "https://purl.org/csv-cubed/resources/measures#life-expectancy"
+            "https://purl.org/csv-cubed/resources/measures#life-expectancy",
+            "https://purl.org/csv-cubed/resources/measures#scale",
+            "https://purl.org/csv-cubed/resources/measures#sentiment"
         ]
     }
 }

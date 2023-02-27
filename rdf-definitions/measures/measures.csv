@@ -28,3 +28,5 @@ travel-time,Travel Time,The elapsed time to travel from a given start to destina
 portion,A Portion of a Whole,Relationships between the components of a whole,,,
 portion-of-population,Portion of a population,A population's components being analysed related to the whole,#portion,,
 life-expectancy,Life Expectancy,Expected life span for a specified group of human beings,#elapsed-time,,
+scale,An Abstract Scale,A scale of measurement for a given feature,,,
+sentiment,An Scale of Sentiment,A scale of sentiment for a given respondent or population,#scale,,
