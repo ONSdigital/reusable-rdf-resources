@@ -23,7 +23,7 @@ employment-income,Employment Income,The amount of money earned for employment,#m
 gross-weekly-pay,Gross Weekly Pay,Gross weekly pay,#employment-income,,
 people-in-employment,People in Employment,People who are in paid or who are employeed but on temporary leave,#people,,
 area,Area,Area,,,
-size-area,Size of Land Area,The size of an area of land,#area,,
+land-area,Size of Land Area,The size of an area of land,#area,,
 travel-time,Travel Time,The elapsed time to travel from a given start to destination,#elapsed-time,,
 portion,A Portion of a Whole,Relationships between the components of a whole,,,
 portion-of-population,Portion of a population,A population's components being analysed related to the whole,#portion,,
