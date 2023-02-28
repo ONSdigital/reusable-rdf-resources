@@ -34,7 +34,8 @@
             "https://purl.org/csv-cubed/resources/measures#portion-of-population",
             "https://purl.org/csv-cubed/resources/measures#life-expectancy",
             "https://purl.org/csv-cubed/resources/measures#scale",
-            "https://purl.org/csv-cubed/resources/measures#sentiment"
+            "https://purl.org/csv-cubed/resources/measures#sentiment",
+            "https://purl.org/csv-cubed/resources/measures#crime-rate"
         ]
     }
 }
