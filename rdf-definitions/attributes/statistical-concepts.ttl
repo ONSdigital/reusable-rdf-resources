@@ -15,48 +15,51 @@ stats-concepts:csu a skos:ConceptScheme;
     rdfs:comment """Statistical model components and their primary and secondary outputs are interrelated and work together to provide insights into the underlying patterns, trends, and uncertainties in the data. Confidence intervals and credible intervals provide a measure of uncertainty around parameter estimates, while seasonally adjusted values and trend components reveal underlying patterns in the data. Standard error calculations also provide a measure of uncertainty in the estimates. Properly describing and reporting these model components and outputs in data set publications is essential to ensure that humans and machines can accurately interpret and utilize the data.""" .
 
 # Confidence Interval
-stats-concepts:confidenceInterval a sdmx:Concept, skos:Concept ;
+stats-concepts:confidenceInterval a skos:Concept ;
     rdfs:label "Confidence Interval"@en ;
     rdfs:comment """In statistics, a confidence interval (CI) is a type of estimate computed from the statistics of the observed data. This proposes a range of plausible values for an unknown parameter (for example, the mean). The interval has an associated confidence level that the true parameter is in the proposed range. Given observations and a confidence level , a valid confidence interval has a probability of containing the true underlying parameter. The level of confidence can be chosen by the investigator. In general terms, a confidence interval for an unknown parameter is based on sampling the distribution of a corresponding estimator."""@en ;
     rdfs:isDefinedBy <http://dbpedia.org/resource/Confidence_interval> ;
     rdfs:seeAlso <http://dbpedia.org/resource/Category:Statistical_intervals> ;
     skos:inScheme stats-concepts:csu .
 
-stats-concepts:lCoI a sdmx:Concept, skos:Concept ;
+stats-concepts:lCoI a skos:Concept ;
     rdfs:label "Confidence Interval (Lower Value)"@en ;
     rdfs:comment """The lower confidence internval is the lower range of plausible values for an unknown parameter estimate."""@en .
 
-stats-concepts:coPower a sdmx:Concept, skos:Concept ;
+
+stats-concepts:coPower a skos:Concept ;
     rdfs:label "Confidence Interval Power Level"@en ;
     rdfs:comment """The level of confidence chosen by the investigator"""@en ;
     rdfs:range 
 
-stats-concepts:credibleInterval a sdmx:Concept, skos:Concept ;
+# Credible Interval
+stats-concepts:credibleInterval a skos:Concept ;
     rdfs:label "Credible Interval"@en ;
     rdfs:comment """In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are analogous to confidence intervals in frequentist statistics, although they differ on a philosophical basis: Bayesian intervals treat their bounds as fixed and the estimated parameter as a random variable, whereas frequentist confidence intervals treat their bounds as random variables and the parameter as a fixed value."""@en ;
     rdfs:isDefinedBy <http://dbpedia.org/resource/Credible_interval> ;
-    rdfs:seeAlso <http://dbpedia.org/resource/Category:Statistical_intervals> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Category:Statistical_intervals> .
 
-stats-concepts:unadjustedObs a sdmx:Concept, skos:Concept 
+stats-concepts:unadjustedObs a skos:Concept ;
     rdfs:label "Unadjusted Observation"@en .
 
-stats-concepts:unadjustedAttr a sdmx:Concept, skos:Concept ;
+stats-concepts:unadjustedAttr a skos:Concept ;
     rdfs:label "Unadjusted Observational Attribute"@en .
 
-stats-concepts:adjustedObs a sdmx:Concept, skos:Concept ;
+stats-concepts:adjustedObs a skos:Concept ;
     rdfs:label "Adjusted Observation"@en .
 
-stats-concepts:adjustedAttr a sdmx:Concept, skos:Concept ;
+stats-concepts:adjustedAttr a skos:Concept ;
     rdfs:label "Adjusted Observational Attribute"@en .
 
-stats-concepts:seasonallyAdjustedObs a sdmx:Concept, skos:Concept ;
+stats-concepts:seasonallyAdjustedObs a skos:Concept ;
     rdfs:label "Seasonally Adjusted Observation"@en ;
-    sdmx:broader stats-concepts:adjustedObs .
+    skos:broader stats-concepts:adjustedObs .
 
-stats-concepts:seasonallyAdjustedAttr a sdmx:Concept, skos:Concept ;
+stats-concepts:seasonallyAdjustedAttr a skos:Concept ;
     rdfs:label "Seasonally Adjusted Observational Attribute"@en ;
-    sdmx:broader stats-concepts:adjustedAttr .
+    skos:broader stats-concepts:adjustedAttr .
 
-stats-concepts:standardError a sdmx:Concept, skos:Concept ;
-    rdfs:label "Standard Error"@en .
+stats-concepts:standardError a skos:Concept ;
+    rdfs:label "Standard Error"@en ;
+    skos:broader sdmx-metadata:adjustment .
 
