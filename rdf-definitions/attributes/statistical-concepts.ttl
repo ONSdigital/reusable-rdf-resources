@@ -22,7 +22,7 @@ stats-concepts:confidenceInterval a skos:Concept ;
     rdfs:seeAlso <http://dbpedia.org/resource/Category:Statistical_intervals> ;
     skos:inScheme stats-concepts:csu .
 
-stats-concepts:lCoI a skos:Concept ;
+stats-concepts:lCoI a skos:Concept, qb:Attribute ;
     rdfs:label "Confidence Interval (Lower Value)"@en ;
     rdfs:comment """The lower confidence internval is the lower range of plausible values for an unknown parameter estimate."""@en .
 
@@ -30,7 +30,7 @@ stats-concepts:lCoI a skos:Concept ;
 stats-concepts:coPower a skos:Concept ;
     rdfs:label "Confidence Interval Power Level"@en ;
     rdfs:comment """The level of confidence chosen by the investigator"""@en ;
-    rdfs:range 
+    rdfs:range 0.95
 
 # Credible Interval
 stats-concepts:credibleInterval a skos:Concept ;
