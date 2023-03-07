@@ -1,2 +1,0 @@
-identifier,label,description,parent_uri,definition_uri
-b,break in time series,"This shorthand is used when there is a break in a data series that means that data before the break cannot be directly compared with data after the break.\n \n There are many reasons this can happen, including changes to:\n \n * survey scope\n * sampling methods\n * questions\n * mode of data collection\n * weighting"
