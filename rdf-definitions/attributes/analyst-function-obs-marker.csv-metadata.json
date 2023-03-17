@@ -2,11 +2,12 @@
     "@context": [
         "http://www.w3.org/ns/csvw",
         {
-            "@language": "en"
+            "@language": "en",
+            "@base": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker"
         }
     ],
     "@id": "#definition",
-    "url": "analyst-function-obs-marker.csv",
+    "url": "",
     "rdfs:seeAlso": [
         {
             "@id": "#definition",
