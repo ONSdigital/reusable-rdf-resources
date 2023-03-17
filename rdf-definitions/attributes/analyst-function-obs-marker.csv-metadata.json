@@ -6,11 +6,11 @@
             "@base": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker"
         }
     ],
-    "@id": "#definition",
+    "@id": "#scheme",
     "url": "",
     "rdfs:seeAlso": [
         {
-            "@id": "#definition",
+            "@id": "#scheme",
             "@type": [
                 "skos:ConceptScheme",
                 "rdfs:Resource",
@@ -79,6 +79,12 @@
                 "virtual": true,
                 "propertyUrl": "rdf:type",
                 "valueUrl": "skos:Concept"
+            },
+            {
+                "name": "virt_concept_scheme",
+                "virtual": "true",
+                "propertyUrl": "skos:inScheme",
+                "valueUrl": "#scheme"
             }
         ]
     },
