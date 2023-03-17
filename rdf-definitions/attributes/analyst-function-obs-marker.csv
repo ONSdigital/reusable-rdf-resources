@@ -1,0 +1,12 @@
+identifier,label,description
+c,confidential,"This observation is suppressed as its disclosure would give away confidential information. For example, if you would be able to identify details about a single respondent from the data."
+e,estimated,"This observation is an estimate. Where an entire data set is estimated this should be stated in the title or accompanying information rather than providing this observation status on every observation. Not to be confused with f = forecast."
+f,forecast,"This observation is a calculated future value instead of an observed value. Not to be confused with e = estimated."
+low,a low figure but not a real zero,"This observation appears to be zero when rounding, but is not a true zero."
+high,a high figure but not a real 100%,"This observation appears to be 100% when rounding, but is not a true 100%."
+p,provisional,"This observation is not yet finalised, or is expected to be revised."
+r,revised,"This observation has been revised since it was first published."
+u,low reliability,"This observation is of low quality."
+w,none recorded,"This observation has a true zero value."
+x,not available,"This observation is not available as it was not collected."
+z,not applicable,"This observation is not applicable, as values within this category cannot exist (i.e. 4 year olds on payroll employment)."
