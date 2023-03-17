@@ -82,7 +82,7 @@
             },
             {
                 "name": "virt_concept_scheme",
-                "virtual": "true",
+                "virtual": true,
                 "propertyUrl": "skos:inScheme",
                 "valueUrl": "#scheme"
             }
