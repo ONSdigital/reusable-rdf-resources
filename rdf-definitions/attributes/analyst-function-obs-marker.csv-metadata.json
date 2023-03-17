@@ -37,11 +37,11 @@
         "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
     },
     "dcterms:issued": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@type": "xsd:date",
         "@value": "2022-01-11"
     },
     "dcterms:modified": {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@type": "xsd:date",
         "@value": "2023-03-07"
     },
     "tableSchema": {
