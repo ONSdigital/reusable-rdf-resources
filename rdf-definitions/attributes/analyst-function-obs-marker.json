@@ -3,16 +3,22 @@
         "http://www.w3.org/ns/csvw",
         {
             "@language": "en",
-            "@base": "https://purl.org/csv-cubed/resources/attributes/af-obs-markers"
+            "@base": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker"
         }
     ],
-    "url": "analyst-function-obs-marker.csv",
-    "@type": [
-        "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-        "http://www.w3.org/2000/01/rdf-schema#Resource",
-        "http://www.w3.org/ns/dcat#Resource",
-        "http://www.w3.org/ns/prov#Entity",
-        "http://www.w3.org/ns/dcat#Dataset"
+    "@id": "#definition",
+    "url": "",
+    "rdfs:seeAlso": [
+        {
+            "@id": "#definition",
+            "@type": [
+                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/prov#Entity",
+                "http://www.w3.org/ns/dcat#Dataset"
+            ]
+        }
     ],
     "http://purl.org/dc/terms/title": [
         {
@@ -60,13 +66,13 @@
     "tableSchema": {
         "columns": [
             {
-                "titles": "Identifier",
+                "titles": "identifier",
                 "name": "identifier",
                 "required": true,
                 "suppressOutput": true
             },
             {
-                "titles": "Label",
+                "titles": "label",
                 "name": "label",
                 "datatype": "string",
                 "lang": "en",
@@ -74,7 +80,7 @@
                 "required": true
             },
             {
-                "titles": "Description",
+                "titles": "description",
                 "name": "description",
                 "datatype": "string",
                 "lang": "en",
