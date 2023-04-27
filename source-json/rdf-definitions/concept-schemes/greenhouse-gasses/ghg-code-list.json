@@ -1,0 +1,141 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Greenhouse gases code list",
+    "summary": "List of greenhouse gases",
+    "description": "Automated non-hierarchical greenhouse gases code list linked to DBPedia",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Total Greenhouse Gases",
+            "notation": "total-greenhouse-gases",
+            "same_as": "http://dbpedia.org/resource/Greenhouse_gas"
+        },
+        {
+            "label": "Carbon dioxide (CO2)",
+            "notation": "CO2",
+            "same_as": "http://dbpedia.org/resource/Carbon_dioxide"
+        },
+        {
+            "label": "Other Greenhouse Gases",
+            "notation": "other-greenhouse-gases"
+        },
+        {
+            "label": "Methane (CH4)",
+            "notation": "CH4",
+            "same_as": "https://dbpedia.org/page/Methane"
+        },
+        {
+            "label": "Nitrous oxide (N2O)",
+            "notation": "N2O",
+            "same_as": "https://dbpedia.org/page/Nitrous_oxide"
+        },
+        {
+            "label": "Fluorinated gases (F gases)",
+            "notation": "F",
+            "same_as": "http://dbpedia.org/resource/Fluorinated_gases"
+        },
+        {
+            "label": "Hydrofluorocarbons (HFC)",
+            "notation": "HFC",
+            "same_as": "https://dbpedia.org/page/Hydrofluorocarbon"
+        },
+        {
+            "label": "Perfluorocarbons (PFC)",
+            "notation": "PFC",
+            "same_as": "http://dbpedia.org/resource/Perfluorocarbon"
+        },
+        {
+            "label": "Sulphur hexafluoride (SF6)",
+            "notation": "SF6",
+            "same_as": "http://dbpedia.org/resource/Sulfur_hexafluoride"
+        },
+        {
+            "label": "Nitrogen Trifluoride (NF3)",
+            "notation": "NF3",
+            "same_as": "http://dbpedia.org/resource/Nitrogen_trifluoride"
+        },
+        {
+            "label": "Pentafluoroethane (HFC-125)",
+            "notation": "HFC-125",
+            "same_as": "https://dbpedia.org/page/Pentafluoroethane"
+        },
+        {
+            "label": "1,1,1,2-Tetrafluoroethane (HFC-134a)",
+            "notation": "HFC-134a",
+            "same_as": "http://dbpedia.org/resource/1,1,1,2-Tetrafluoroethane"
+        },
+        {
+            "label": "1,1,1-Trifluoroethane (HFC-143a)",
+            "notation": "HFC-143a",
+            "same_as": "http://dbpedia.org/resource/1,1,1-Trifluoroethane"
+        },
+        {
+            "label": "1,1-Difluoroethane (HFC-152a)",
+            "notation": "HFC-152a",
+            "same_as": "https://dbpedia.org/page/1,1-Difluoroethane"
+        },
+        {
+            "label": "1,1,1,2,3,3,3-Heptafluoropropane (HFC-227ea)",
+            "notation": "HFC-227ea",
+            "same_as": "http://dbpedia.org/resource/1,1,1,2,3,3,3-Heptafluoropropane"
+        },
+        {
+            "label": "Fluoroform (HFC-23)",
+            "notation": "HFC-23",
+            "same_as": "http://dbpedia.org/resource/Fluoroform"
+        },
+        {
+            "label": "Pentafluoropropane (HFC-245fa)",
+            "notation": "HFC-245fa",
+            "same_as": "http://dbpedia.org/resource/Pentafluoropropane"
+        },
+        {
+            "label": "Difluoromethane (HFC-32)",
+            "notation": "HFC-32",
+            "same_as": "http://dbpedia.org/resource/Difluoromethane"
+        },
+        {
+            "label": "1,1,1,3,3-Pentafluorobutane (HFC-365mfc)",
+            "notation": "HFC-365mfc"
+        },
+        {
+            "label": "1,1,1,2,2,3,4,5,5,5-Decafluoropentane (HFC-43-10mee)",
+            "notation": "HFC-43-10mee"
+        },
+        {
+            "label": "Hexafluoroethane (C2F6)",
+            "notation": "C2F6",
+            "same_as": "https://dbpedia.org/page/Hexafluoroethane"
+        },
+        {
+            "label": "Octafluoropropane (C3F8)",
+            "notation": "C3F8",
+            "same_as": "https://dbpedia.org/page/Octafluoropropane"
+        },
+        {
+            "label": "Perfluorobutane (PFB)",
+            "notation": "C4F10",
+            "same_as": "http://dbpedia.org/resource/Perfluorobutane"
+        },
+        {
+            "label": "Octafluorocyclobutane (C4F8)",
+            "notation": "C4F8",
+            "same_as": "http://dbpedia.org/resource/Octafluorocyclobutane"
+        },
+        {
+            "label": "Tetrafluoromethane (CF4)",
+            "notation": "CF4",
+            "same_as": "https://dbpedia.org/page/Carbon_tetrafluoride"
+        },
+        {
+            "label": "PFC_C_Equiv_AR4",
+            "notation": "PFC_C_Equiv_AR4"
+        }
+    ]
+}
