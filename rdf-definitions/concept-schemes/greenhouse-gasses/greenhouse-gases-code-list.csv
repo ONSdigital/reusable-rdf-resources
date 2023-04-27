@@ -1,0 +1,27 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description,Original Concept URI
+hfc-43-10mee,"1,1,1,2,2,3,4,5,5,5-Decafluoropentane (HFC-43-10mee)",HFC-43-10mee,,0,,
+hfc-227ea,"1,1,1,2,3,3,3-Heptafluoropropane (HFC-227ea)",HFC-227ea,,1,,"http://dbpedia.org/resource/1,1,1,2,3,3,3-Heptafluoropropane"
+hfc-134a,"1,1,1,2-Tetrafluoroethane (HFC-134a)",HFC-134a,,2,,"http://dbpedia.org/resource/1,1,1,2-Tetrafluoroethane"
+hfc-365mfc,"1,1,1,3,3-Pentafluorobutane (HFC-365mfc)",HFC-365mfc,,3,,
+hfc-143a,"1,1,1-Trifluoroethane (HFC-143a)",HFC-143a,,4,,"http://dbpedia.org/resource/1,1,1-Trifluoroethane"
+hfc-152a,"1,1-Difluoroethane (HFC-152a)",HFC-152a,,5,,"https://dbpedia.org/page/1,1-Difluoroethane"
+co2,Carbon dioxide (CO2),CO2,,6,,http://dbpedia.org/resource/Carbon_dioxide
+hfc-32,Difluoromethane (HFC-32),HFC-32,,7,,http://dbpedia.org/resource/Difluoromethane
+f,Fluorinated gases (F gases),F,,8,,http://dbpedia.org/resource/Fluorinated_gases
+hfc-23,Fluoroform (HFC-23),HFC-23,,9,,http://dbpedia.org/resource/Fluoroform
+c2f6,Hexafluoroethane (C2F6),C2F6,,10,,https://dbpedia.org/page/Hexafluoroethane
+hfc,Hydrofluorocarbons (HFC),HFC,,11,,https://dbpedia.org/page/Hydrofluorocarbon
+ch4,Methane (CH4),CH4,,12,,https://dbpedia.org/page/Methane
+nf3,Nitrogen Trifluoride (NF3),NF3,,13,,http://dbpedia.org/resource/Nitrogen_trifluoride
+n2o,Nitrous oxide (N2O),N2O,,14,,https://dbpedia.org/page/Nitrous_oxide
+c4f8,Octafluorocyclobutane (C4F8),C4F8,,15,,http://dbpedia.org/resource/Octafluorocyclobutane
+c3f8,Octafluoropropane (C3F8),C3F8,,16,,https://dbpedia.org/page/Octafluoropropane
+other-greenhouse-gases,Other Greenhouse Gases,other-greenhouse-gases,,17,,
+pfc_c_equiv_ar4,PFC_C_Equiv_AR4,PFC_C_Equiv_AR4,,18,,
+hfc-125,Pentafluoroethane (HFC-125),HFC-125,,19,,https://dbpedia.org/page/Pentafluoroethane
+hfc-245fa,Pentafluoropropane (HFC-245fa),HFC-245fa,,20,,http://dbpedia.org/resource/Pentafluoropropane
+c4f10,Perfluorobutane (PFB),C4F10,,21,,http://dbpedia.org/resource/Perfluorobutane
+pfc,Perfluorocarbons (PFC),PFC,,22,,http://dbpedia.org/resource/Perfluorocarbon
+sf6,Sulphur hexafluoride (SF6),SF6,,23,,http://dbpedia.org/resource/Sulfur_hexafluoride
+cf4,Tetrafluoromethane (CF4),CF4,,24,,https://dbpedia.org/page/Carbon_tetrafluoride
+total-greenhouse-gases,Total Greenhouse Gases,total-greenhouse-gases,,25,,http://dbpedia.org/resource/Greenhouse_gas
