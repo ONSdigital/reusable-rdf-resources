@@ -1731,6 +1731,7 @@
       "http://qudt.org/vocab/unit/KiloMOL-PER-MIN",
       "http://qudt.org/vocab/unit/W-PER-FT2",
       "http://qudt.org/vocab/unit/TONNE-PER-DAY"
+      "http://qudt.org/vocab/unit/HA" (Hectare)
     ]
   }
 }
