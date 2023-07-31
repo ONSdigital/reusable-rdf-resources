@@ -38,7 +38,7 @@
             "https://purl.org/csv-cubed/resources/measures#incidence-rate",
             "https://purl.org/csv-cubed/resources/measures#crime-rate",
             "https://purl.org/csv-cubed/resources/measures#temperature",
-            "https://purl.org/csv-cubed/resources/measures#length",
+            "https://purl.org/csv-cubed/resources/measures#length"
         ]
     }
 }
