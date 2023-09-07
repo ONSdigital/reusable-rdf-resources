@@ -1,0 +1,8 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier ,Sort Priority,Description,Original Concept URI
+F,Female,F,,0,Female,https://sdmx.org/Female
+M,Male,M,,1,Male,https://sdmx.org/Male
+_N,Non response,_N,,2,Failure to obtain a measurement on one or more study variables for one or more elements in a survey.,https://sdmx.org/Non-response
+_O,Other,_O,,3,"Used to cover residual information not contained in other categories of the code list (in some contexts, e.g.�classifications, referred to as n.e.s., not elsewhere specified, n.e.c., not elsewhere classified, etc.)",https://sdmx.org/Other
+_T,Total,_T,,4,Used for expressing totals.,https://sdmx.org/Total
+_U,Unknown,_U,,5,"Failure to obtain a measurement (e.g.�non response, no data available, information not known by the respondent unit, etc.).",https://sdmx.org/Unknown
+_Z,Not applicable,_Z,,6,"Used in response to a question or a request for information that does not apply to the circumstances of the unit being surveyed.This concept is to be understood as meaning ""statistically not applicable""; i.e. _Z is to be used only for statistical purposes.",https://sdmx.org/Not-applicable
