@@ -2,7 +2,7 @@
     "@context": "http://www.w3.org/ns/csvw",
     "@id": "sex.csv#code-list",
     "url": "sex.csv",
-    "tableSchema": "sex.table.json",
+    "tableSchema": "sex-code-list.table.json",
     "rdfs:seeAlso": [
         {
             "@id": "sex.csv#code-list",
@@ -32,7 +32,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": ""
+                    "@value": "2017-06-15T12:00:00"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -43,7 +43,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": ""
+                    "@value": "2017-06-15T12:00:00"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
