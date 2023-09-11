@@ -1,0 +1,87 @@
+<http://workspace/sex/sex.csv#code-list>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2000/01/rdf-schema#Resource> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/ns/dcat#Dataset> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/ns/dcat#Resource> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/ns/prov#Entity> ;
+        <http://purl.org/dc/terms/creator>  <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        <http://purl.org/dc/terms/identifier>  "Sex code list" ;
+        <http://purl.org/dc/terms/issued>  "2017-06-15T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/license>  <https://creativecommons.org/license/by/4.0/> ;
+        <http://purl.org/dc/terms/modified>  "2017-06-15T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/publisher>  <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
+        <http://purl.org/dc/terms/title>  " Sex code list"@en ;
+        <http://purl.org/dv/terms/description>  "Automated non-hierarchical sex code list linked to SDMX"^^<https://www.w3.org/ns/iana/media-types/text/markdown#Resources> ;
+        <http://www.w3.org.ns/prov#wasGeneratedBy>  <http://workspace/sex/sex.csv#csvcubed-build-activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "List of sex"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "List of sex"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>  <http://workspace/sex/sex.csv#csvcubed-build-activity> .
+
+<http://workspace/sex/sex.csv#csvcubed-build-activity>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org.ns/prov#Activity> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2000/01/rdf-schema#Resource> ;
+        <http://www.w3.org.ns/prov#used>  <https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.0> .
+
+<http://workspace/sex/sex.csv#F>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Female" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Female" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Female> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "F" ;
+        <http://www.w3.org/ns/ui#sortPriority>  0 .
+
+<http://workspace/sex/sex.csv#M>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Male" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Male" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Male> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "M" ;
+        <http://www.w3.org/ns/ui#sortPriority>  1 .
+
+<http://workspace/sex/sex.csv#_N>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Failure to obtain a measurement on one or more study variables for one or more elements in a survey." ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Non response" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Non-response> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "_N" ;
+        <http://www.w3.org/ns/ui#sortPriority>  2 .
+
+<http://workspace/sex/sex.csv#_O>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Used to cover residual information not contained in other categories of the code list (in some contexts, e.g.�classifications, referred to as n.e.s., not elsewhere specified, n.e.c., not elsewhere classified, etc.)" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Other" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Other> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "_O" ;
+        <http://www.w3.org/ns/ui#sortPriority>  3 .
+
+<http://workspace/sex/sex.csv#_T>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Used for expressing totals." ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Total" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Total> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "_T" ;
+        <http://www.w3.org/ns/ui#sortPriority>  4 .
+
+<http://workspace/sex/sex.csv#_U>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Failure to obtain a measurement (e.g.�non response, no data available, information not known by the respondent unit, etc.)." ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Unknown" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Unknown> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "_U" ;
+        <http://www.w3.org/ns/ui#sortPriority>  5 .
+
+<http://workspace/sex/sex.csv#_Z>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Used in response to a question or a request for information that does not apply to the circumstances of the unit being surveyed.This concept is to be understood as meaning \"statistically not applicable\"; i.e. _Z is to be used only for statistical purposes." ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  "Not applicable" ;
+        <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Not-applicable> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
+        <http://www.w3.org/2004/02/skos/core#notation>  "_Z" ;
+        <http://www.w3.org/ns/ui#sortPriority>  6 .
