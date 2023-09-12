@@ -1,0 +1,1188 @@
+Description,Code,Parent
+"AGRICULTURE, FORESTRY AND FISHING",A,Is parent
+"Crop and animal production, hunting and related service activities",01,A
+Growing of non-perennial crops,011,01
+"Growing of cereals (except rice), leguminous crops and oil seeds",01110,011
+Growing of rice,01120,011
+"Growing of vegetables and melons, roots and tubers",01130,011
+Growing of sugar cane,01140,011
+Growing of tobacco,01150,011
+Growing of fibre crops,01160,011
+Growing of other non-perennial crops,01190,011
+Growing of perennial crops,012,01
+Growing of grapes,01210,012
+Growing of tropical and subtropical fruits,01220,012
+Growing of citrus fruits,01230,012
+Growing of pome fruits and stone fruits,01240,012
+Growing of other tree and bush fruits and nuts,01250,012
+Growing of oleaginous fruits,01260,012
+Growing of beverage crops,01270,012
+"Growing of spices, aromatic, drug and pharmaceutical crops",01280,012
+Growing of other perennial crops,01290,012
+Plant propagation,013,01
+Plant propagation,01300,013
+Animal production,014,01
+Raising of dairy cattle,01410,014
+Raising of other cattle and buffaloes,01420,014
+Raising of horses and other equines,01430,014
+Raising of camels and camelids,01440,014
+Raising of sheep and goats,01450,014
+Raising of swinepigs,01460,014
+Raising of poultry,01470,014
+Raising of other animals,01490,014
+Mixed farming,015,01
+Mixed farming,01500,015
+Support activities to agriculture and post-harvest crop activities,016,01
+Support activities for crop production,01610,016
+Support activities for animal production,01620,016
+Farm animal boarding and care,01621,01620
+Support activities for animal production (other than farm animal boarding and care) nec,01629,01620
+Post-harvest crop activities,01630,016
+Seed processing for propagation,01640,016
+"Hunting, trapping and related service activities",017,01
+"Hunting, trapping and related service activities",01700,017
+Forestry and logging,02,A
+Silviculture and other forestry activities,021,02
+Silviculture and other forestry activities,02100,021
+Logging,022,02
+Logging,02200,022
+Gathering of wild growing non-wood products,023,02
+Gathering of wild growing non-wood products,02300,023
+Support services to forestry,024,02
+Support services to forestry,02400,024
+Fishing and aquaculture,03,A
+Fishing,031,03
+Marine fishing,03110,031
+Freshwater fishing,03120,031
+Aquaculture,032,03
+Marine aquaculture,03210,032
+Freshwater aquaculture,03220,032
+MINING AND QUARRYING,B,Is parent
+Mining of coal and lignite,05,B
+Mining of hard coal,051,05
+Mining of hard coal,05100,051
+Mining of hard coal from deep coal mines (underground mining),05101,05100
+Mining of hard coal from open cast coal working (surface mining),05102,05100
+Mining of lignite,052,05
+Mining of lignite,05200,052
+Extraction of crude petroleum and natural gas,06,B
+Extraction of crude petroleum,061,06
+Extraction of crude petroleum,06100,061
+Extraction of natural gas,062,06
+Extraction of natural gas,06200,062
+Mining of metal ores,07,B
+Mining of iron ores,071,07
+Mining of iron ores,07100,071
+Mining of non-ferrous metal ores,072,07
+Mining of uranium and thorium ores,07210,072
+Mining of other non-ferrous metal ores,07290,072
+Other mining and quarrying,08,B
+"Quarrying of stone, sand and clay",081,08
+"Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",08110,081
+Operation of gravel and sand pits; mining of clays and kaolin,08120,081
+Mining and quarrying nec,089,08
+Mining of chemical and fertiliser minerals,08910,089
+Extraction of peat,08920,089
+Extraction of salt,08930,089
+Other mining and quarrying nec,08990,089
+Mining support service activities,09,B
+Support activities for petroleum and natural gas extraction,091,09
+Support activities for petroleum and natural gas extraction,09100,091
+Support activities for other mining and quarrying,099,09
+Support activities for other mining and quarrying,09900,099
+MANUFACTURING,C,Is parent
+Manufacture of food products,10,C
+Processing and preserving of meat and production of meat products,101,10
+Processing and preserving of meat,10110,101
+Processing and preserving of poultry meat,10120,101
+Production of meat and poultry meat products,10130,101
+"Processing and preserving of fish, crustaceans and molluscs",102,10
+"Processing and preserving of fish, crustaceans and molluscs",10200,102
+Processing and preserving of fruit and vegetables,103,10
+Processing and preserving of potatoes,10310,103
+Manufacture of fruit and vegetable juice,10320,103
+Other processing and preserving of fruit and vegetables,10390,103
+Manufacture of vegetable and animal oils and fats,104,10
+Manufacture of oils and fats,10410,104
+Manufacture of margarine and similar edible fats,10420,104
+Manufacture of dairy products,105,10
+Operation of dairies and cheese making,10510,105
+Liquid milk and cream production,10511,10510
+Butter and cheese production,10512,10510
+"Manufacture of milk products (other than liquid milk and cream, butter, cheese) nec",10519,10510
+Manufacture of ice cream,10520,105
+"Manufacture of grain mill products, starches and starch products",106,10
+Manufacture of grain mill products,10610,106
+Grain milling,10611,10610
+Manufacture of breakfast cereals and cereals-based foods,10612,10610
+Manufacture of starches and starch products,10620,106
+Manufacture of bakery and farinaceous products,107,10
+Manufacture of bread; manufacture of fresh pastry goods and cakes,10710,107
+Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes,10720,107
+"Manufacture of macaroni, noodles, couscous and similar farinaceous products",10730,107
+Manufacture of other food products,108,10
+Manufacture of sugar,10810,108
+"Manufacture of cocoa, chocolate and sugar confectionery",10820,108
+"Manufacture of cocoa, and chocolate confectionery",10821,10820
+Manufacture of sugar confectionery,10822,10820
+Processing of tea and coffee,10830,108
+Tea processing,10831,10830
+Production of coffee and coffee substitutes,10832,10830
+Manufacture of condiments and seasonings,10840,108
+Manufacture of prepared meals and dishes,10850,108
+Manufacture of homogenised food preparations and dietetic food,10860,108
+Manufacture of other food products nec,10890,108
+Manufacture of prepared animal feeds,109,10
+Manufacture of prepared feeds for farm animals,10910,109
+Manufacture of prepared pet foods,10920,109
+Manufacture of beverages,11,C
+Manufacture of beverages,110,11
+"Distilling, rectifying and blending of spirits",11010,110
+Manufacture of wine from grape,11020,110
+Manufacture of cider and other fruit wines,11030,110
+Manufacture of other non-distilled fermented beverages,11040,110
+Manufacture of beer,11050,110
+Manufacture of malt,11060,110
+Manufacture of soft drinks; production of mineral waters and other bottled waters,11070,110
+Manufacture of tobacco products,12,C
+Manufacture of tobacco products,120,12
+Manufacture of tobacco products,12000,120
+Manufacture of textiles,13,C
+Preparation and spinning of textile fibres,131,13
+Preparation and spinning of textile fibres,13100,131
+Weaving of textiles,132,13
+Weaving of textiles,13200,132
+Finishing of textiles,133,13
+Finishing of textiles,13300,133
+Manufacture of other textiles,139,13
+Manufacture of knitted and crocheted fabrics,13910,139
+"Manufacture of made-up textile articles, except apparel",13920,139
+Manufacture of soft furnishings,13921,13920
+"Manufacture of canvas goods, sacks etc",13922,13920
+Manufacture of household textiles (other than soft furnishings of 13921),13923,13920
+Manufacture of carpets and rugs,13930,139
+Manufacture of woven or tufted carpets and rugs,13931,13930
+Manufacture of carpets and rugs (other than woven or tufted) nec,13939,13930
+"Manufacture of cordage, rope, twine and netting",13940,139
+"Manufacture of non-wovens and articles made from non-wovens, except apparel",13950,139
+Manufacture of other technical and industrial textiles,13960,139
+Manufacture of other textiles nec,13990,139
+Manufacture of wearing apparel,14,C
+"Manufacture of wearing apparel, except fur apparel",141,14
+Manufacture of leather clothes,14110,141
+Manufacture of workwear,14120,141
+Manufacture of other outerwear,14130,141
+"Manufacture of men's outerwear, other than leather clothes and workwear",14131,14130
+"Manufacture of women's outerwear, other than leather clothes and workwear",14132,14130
+Manufacture of underwear,14140,141
+Manufacture of men's underwear,14141,14140
+Manufacture of women's underwear,14142,14140
+Manufacture of other wearing apparel and accessories,14190,141
+Manufacture of articles of fur,142,14
+Manufacture of articles of fur,14200,142
+Manufacture of knitted and crocheted appare,143,14
+Manufacture of knitted and crocheted hosiery,14310,143
+Manufacture of other knitted and crocheted apparel,14390,143
+Manufacture of leather and related products,15,C
+Manufacture of leather and related products,151,15
+Tanning and dressing of leather; dressing and dyeing of fur,15110,151
+"Manufacture of luggage, handbags and the like, saddlery and harness",15120,151
+Manufacture of footwear,152,15
+Manufacture of footwear,15200,152
+"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",16,C
+Sawmilling and planing of wood,161,16
+Sawmilling and planing of wood,16100,161
+"Manufacture of products of wood, cork, straw and plaiting materials",162,16
+Manufacture of veneer sheets and wood-based panels,16210,162
+Manufacture of assembled parquet floors,16220,162
+Manufacture of other builders' carpentry and joinery,16230,162
+Manufacture of wooden containers,16240,162
+"Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",16290,162
+Manufacture of paper and paper products,17,C
+"Manufacture of pulp, paper and paperboard",171,17
+Manufacture of pulp,17110,171
+Manufacture of paper and paperboard,17120,171
+Manufacture of articles of paper and paperboard,172,17
+Manufacture of corrugated paper and paperboard and of containers of paper and paperboard,17210,172
+Manufacture of corrugated paper and paperboard; manufacture of sacks and bags of paper,17211,17210
+Manufacture of paper and paperboard containers other than sacks and bags,17219,17210
+Manufacture of household and sanitary goods and of toilet requisites,17220,172
+Manufacture of paper stationery,17230,172
+Manufacture of wallpaper,17240,172
+Manufacture of other articles of paper and paperboard,17290,172
+Printing and reproduction of recorded media,18,C
+Printing and service activities related to printing,181,18
+Printing of newspapers,18110,181
+Other printing,18120,181
+Manufacture of printed labels,18121,18120
+Printing (other than printing of newspapers and printing on labels and tags) nec,18129,18120
+Pre-press and pre-media services,18130,181
+Binding and related services,18140,181
+Reproduction of recorded media,182,18
+Reproduction of recorded media,18200,182
+Reproduction of sound recording,18201,18200
+Reproduction of video recording,18202,18200
+Reproduction of computer media,18203,18200
+Manufacture of coke and refined petroleum products,19,C
+Manufacture of coke oven products,191,19
+Manufacture of coke oven products,19100,191
+Manufacture of refined petroleum products,192,19
+Manufacture of refined petroleum products,19200,192
+Mineral oil refining,19201,19200
+Other treatment of petroleum products (excluding mineral oil refiningpetrochemicals manufacture),19209,19200
+Manufacture of chemicals and chemical products,20,C
+"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",201,20
+Manufacture of industrial gases,20110,201
+Manufacture of dyes and pigments,20120,201
+Manufacture of other inorganic basic chemicals,20130,201
+Manufacture of other organic basic chemicals,20140,201
+Manufacture of fertilisers and nitrogen compounds,20150,201
+Manufacture of plastics in primary forms,20160,201
+Manufacture of synthetic rubber in primary forms,20170,201
+Manufacture of pesticides and other agrochemical products,202,20
+Manufacture of pesticides and other agrochemical products,20200,202
+"Manufacture of paints, varnishes and similar coatings, printing ink and mastics",203,20
+"Manufacture of paints, varnishes and similar coatings, printing ink and mastics",20300,203
+"Manufacture of paints, varnishes and similar coatings, mastics and sealants",20301,20300
+Manufacture of printing ink,20302,20300
+"Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",204,20
+"Manufacture of soap and detergents, cleaning and polishing preparations",20410,204
+Manufacture of soap and detergents,20411,20410
+Manufacture of cleaning and polishing preparations,20412,20410
+Manufacture of perfumes and toilet preparations,20420,204
+Manufacture of other chemical products,205,20
+Manufacture of explosives,20510,205
+Manufacture of glues,20520,205
+Manufacture of essential oils,20530,205
+Manufacture of other chemical products nec,20590,205
+Manufacture of man-made fibres,206,20
+Manufacture of man-made fibres,20600,206
+Manufacture of basic pharmaceutical products and pharmaceutical preparations,21,C
+Manufacture of basic pharmaceutical products,211,21
+Manufacture of basic pharmaceutical products,21100,211
+Manufacture of pharmaceutical preparations,212,21
+Manufacture of pharmaceutical preparations,21200,212
+Manufacture of rubber and plastic products,22,C
+Manufacture of rubber products,221,22
+Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres,22110,221
+Manufacture of other rubber products,22190,221
+Manufacture of plastics products,222,22
+"Manufacture of plastic plates, sheets, tubes and profiles",22210,222
+Manufacture of plastic packing goods,22220,222
+Manufacture of builders’ ware of plastic,22230,222
+Manufacture of other plastic products,22290,222
+Manufacture of other non-metallic mineral products,23,C
+Manufacture of glass and glass products,231,23
+Manufacture of flat glass,23110,231
+Shaping and processing of flat glass,23120,231
+Manufacture of hollow glass,23130,231
+Manufacture of glass fibres,23140,231
+"Manufacture and processing of other glass, including technical glassware",23190,231
+Manufacture of refractory products,232,23
+Manufacture of refractory products,23200,232
+Manufacture of clay building materials,233,23
+Manufacture of ceramic tiles and flags,23310,233
+"Manufacture of bricks, tiles and construction products, in baked clay",23320,233
+Manufacture of other porcelain and ceramic products,234,23
+Manufacture of ceramic household and ornamental articles,23410,234
+Manufacture of ceramic sanitary fixtures,23420,234
+Manufacture of ceramic insulators and insulating fittings,23430,234
+Manufacture of other technical ceramic products,23440,234
+Manufacture of other ceramic products,23490,234
+"Manufacture of cement, lime and plaster",235,23
+Manufacture of cement,23510,235
+Manufacture of lime and plaster,23520,235
+"Manufacture of articles of concrete, cement and plaster",236,23
+Manufacture of concrete products for construction purposes,23610,236
+Manufacture of plaster products for construction purposes,23620,236
+Manufacture of ready-mixed concrete,23630,236
+Manufacture of mortars,23640,236
+Manufacture of fibre cement,23650,236
+"Manufacture of other articles of concrete, plaster and cement",23690,236
+"Cutting, shaping and finishing of stone",237,23
+"Cutting, shaping and finishing of stone",23700,237
+Manufacture of abrasive products and non-metallic mineral products nec,239,23
+Production of abrasive products,23910,239
+Manufacture of other non-metallic mineral products nec,23990,239
+Manufacture of basic metals,24,C
+Manufacture of basic iron and steel and of ferro-alloys,241,24
+Manufacture of basic iron and steel and of ferro-alloys,24100,241
+"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",242,24
+"Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",24200,242
+Manufacture of other products of first processing of steel,243,24
+Cold drawing of bars,24310,243
+Cold rolling of narrow strip,24320,243
+Cold forming or folding,24330,243
+Cold drawing of wire,24340,243
+Manufacture of basic precious and other non-ferrous metals,244,24
+Precious metals production,24410,244
+Aluminium production,24420,244
+"Lead, zinc and tin production",24430,244
+Copper production,24440,244
+Other non-ferrous metal production,24450,244
+Processing of nuclear fuel,24460,244
+Casting of metals,245,24
+Casting of iron,24510,245
+Casting of steel,24520,245
+Casting of light metals,24530,245
+Casting of other non-ferrous metals,24540,245
+"Manufacture of fabricated metal products, except machinery and equipment",25,C
+Manufacture of structural metal products,251,25
+Manufacture of metal structures and parts of structures,25110,251
+Manufacture of doors and windows of metal,25120,251
+"Manufacture of tanks, reservoirs and containers of metal",252,25
+Manufacture of central heating radiators and boilers,25210,252
+"Manufacture of other tanks, reservoirs and containers of metal",25290,252
+"Manufacture of steam generators, except central heating hot water boilers",253,25
+"Manufacture of steam generators, except central heating hot water boilers",25300,253
+Manufacture of weapons and ammunition,254,25
+Manufacture of weapons and ammunition,25400,254
+"Forging, pressing, stamping and roll-forming of metal; powder metallurgy",255,25
+"Forging, pressing, stamping and roll-forming of metal; powder metallurgy",25500,255
+Treatment and coating of metals; machining,256,25
+Treatment and coating of metals,25610,256
+Machining,25620,256
+"Manufacture of cutlery, tools and general hardware",257,25
+Manufacture of cutlery,25710,257
+Manufacture of locks and hinges,25720,257
+Manufacture of tools,25730,257
+Manufacture of other fabricated metal products,259,25
+Manufacture of steel drums and similar containers,25910,259
+Manufacture of light metal packaging,25920,259
+"Manufacture of wire products, chain and springs",25930,259
+Manufacture of fasteners and screw machine products,25940,259
+Manufacture of other fabricated metal products nec,25990,259
+"Manufacture of computer, electronic and optical products",26,C
+Manufacture of electronic components and boards,261,26
+Manufacture of electronic components,26110,261
+Manufacture of loaded electronic boards,26120,261
+Manufacture of computers and peripheral equipment,262,26
+Manufacture of computers and peripheral equipment,26200,262
+Manufacture of communication equipment,263,26
+Manufacture of communication equipment,26300,263
+Manufacture of telegraph and telephone apparatus and equipment,26301,26300
+Manufacture of communication equipment (other than telegraph and telephone apparatus and equipment),26309,26300
+Manufacture of consumer electronics,264,26
+Manufacture of consumer electronics,26400,264
+"Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",265,26
+"Manufacture of instruments and appliances for measuring, testing and navigation",26510,265
+"Manufacture of electronic instruments and appliances for measuring, testing, and navigation, except industrial process control equipment",26511,26510
+Manufacture of electronic industrial process control equipment,26512,26510
+"Manufacture of non-electronic instruments and appliances for measuring, testing and navigation, except industrial process control equipment",26513,26510
+Manufacture of non-electronic industrial process control equipment,26514,26510
+Manufacture of watches and clocks,26520,265
+"Manufacture of irradiation, electromedical and electrotherapeutic equipment",266,26
+"Manufacture of irradiation, electromedical and electrotherapeutic equipment",26600,266
+Manufacture of optical instruments and photographic equipment,267,26
+Manufacture of optical instruments and photographic equipment,26700,267
+Manufacture of optical precision instruments,26701,26700
+Manufacture of photographic and cinematographic equipment,26702,26700
+Manufacture of magnetic and optical media,268,26
+Manufacture of magnetic and optical media,26800,268
+Manufacture of electrical equipment,27,C
+"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",271,27
+"Manufacture of electric motors, generators and transformers",27110,271
+Manufacture of electricity distribution and control apparatus,27120,271
+Manufacture of batteries and accumulators,272,27
+Manufacture of batteries and accumulators,27200,272
+Manufacture of wiring and wiring devices,273,27
+Manufacture of fibre optic cables,27310,273
+Manufacture of other electronic and electric wires and cables,27320,273
+Manufacture of wiring devices,27330,273
+Manufacture of electric lighting equipment,274,27
+Manufacture of electric lighting equipment,27400,274
+Manufacture of domestic appliances,275,27
+Manufacture of electric domestic appliances,27510,275
+Manufacture of non-electric domestic appliances,27520,275
+Manufacture of other electrical equipment,279,27
+Manufacture of other electrical equipment,27900,279
+Manufacture of machinery and equipment nec,28,C
+Manufacture of general purpose machinery,281,28
+"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",28110,281
+Manufacture of fluid power equipment,28120,281
+Manufacture of other pumps and compressors,28130,281
+Manufacture of pumps,28131,28130
+Manufacture of compressors,28132,28130
+Manufacture of other taps and valves,28140,281
+"Manufacture of bearings, gears, gearing and driving elements",28150,281
+Manufacture of other general-purpose machinery,282,28
+"Manufacture of ovens, furnaces and furnace burners",28210,282
+Manufacture of lifting and handling equipment,28220,282
+Manufacture of office machinery and equipment (except computers and peripheral equipment),28230,282
+Manufacture of power-driven hand tools,28240,282
+Manufacture of non-domestic cooling and ventilation equipment,28250,282
+Manufacture of other general-purpose machinery nec,28290,282
+Manufacture of agricultural and forestry machinery,283,28
+Manufacture of agricultural and forestry machinery,28300,283
+Manufacture of agricultural tractors,28301,28300
+Manufacture of agricultural and forestry machinery (other than agricultural tractors),28302,28300
+Manufacture of metal forming machinery and machine tools,284,28
+Manufacture of metal forming machinery,28410,284
+Manufacture of other machine tools,28490,284
+Manufacture of other special-purpose machinery,289,28
+Manufacture of machinery for metallurgy,28910,289
+"Manufacture of machinery for mining, quarrying and construction",28920,289
+Manufacture of machinery for mining,28921,28920
+Manufacture of earthmoving equipment,28922,28920
+Manufacture of equipment for concrete crushing and screening roadworks,28923,28920
+"Manufacture of machinery for food, beverage and tobacco processing",28930,289
+"Manufacture of machinery for textile, apparel and leather production",28940,289
+Manufacture of machinery for paper and paperboard production,28950,289
+Manufacture of plastics and rubber machinery,28960,289
+Manufacture of other special-purpose machinery nec,28990,289
+"Manufacture of motor vehicles, trailers and semi-trailers",29,C
+Manufacture of motor vehicles,291,29
+Manufacture of motor vehicles,29100,291
+Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,292,29
+Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,29200,292
+Manufacture of bodies (coachwork) for motor vehicles (except caravans),29201,29200
+Manufacture of trailers and semi-trailers,29202,29200
+Manufacture of caravans,29203,29200
+Manufacture of parts and accessories for motor vehicles,293,29
+Manufacture of electrical and electronic equipment for motor vehicles,29310,293
+Manufacture of other parts and accessories for motor vehicles,29320,293
+Manufacture of other transport equipment,30,C
+Building of ships and boats,301,30
+Building of ships and floating structures,30110,301
+Building of pleasure and sporting boats,30120,301
+Manufacture of railway locomotives and rolling stock,302,30
+Manufacture of railway locomotives and rolling stock,30200,302
+Manufacture of air and spacecraft and related machinery,303,30
+Manufacture of air and spacecraft and related machinery,30300,303
+Manufacture of military fighting vehicles,304,30
+Manufacture of military fighting vehicles,30400,304
+Manufacture of transport equipment nec,309,30
+Manufacture of motorcycles,30910,309
+Manufacture of bicycles and invalid carriages,30920,309
+Manufacture of other transport equipment nec,30990,309
+Manufacture of furniture,31,C
+Manufacture of furniture,310,31
+Manufacture of office and shop furniture,31010,310
+Manufacture of kitchen furniture,31020,310
+Manufacture of mattresses,31030,310
+Manufacture of other furniture,31090,310
+Other manufacturing,32,C
+"Manufacture of jewellery, bijouterie and related articles",321,32
+Striking of coins,32110,321
+Manufacture of jewellery and related articles,32120,321
+Manufacture of imitation jewellery and related articles,32130,321
+Manufacture of musical instruments,322,32
+Manufacture of musical instruments,32200,322
+Manufacture of sports goods,323,32
+Manufacture of sports goods,32300,323
+Manufacture of games and toys,324,32
+Manufacture of games and toys,32400,324
+Manufacture of professional and arcade games and toys,32401,32400
+Manufacture of games and toys (other than professional and arcade games and toys) nec,32409,32400
+Manufacture of medical and dental instruments and supplies,325,32
+Manufacture of medical and dental instruments and supplies,32500,325
+Manufacturing nec,329,32
+Manufacture of brooms and brushes,32910,329
+Other manufacturing nec,32990,329
+Repair and installation of machinery and equipment,33,C
+"Repair of fabricated metal products, machinery and equipment",331,33
+Repair of fabricated metal products,33110,331
+Repair of machinery,33120,331
+Repair of electronic and optical equipment,33130,331
+Repair of electrical equipment,33140,331
+Repair and maintenance of ships and boats,33150,331
+Repair and maintenance of aircraft and spacecraft,33160,331
+Repair and maintenance of other transport equipment,33170,331
+Repair of other equipment,33190,331
+Installation of industrial machinery and equipment,332,33
+Installation of industrial machinery and equipment,33200,332
+"ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY",D,Is parent
+"Electricity, gas, steam and air conditioning supply",35,D
+"Electric power generation, transmission and distribution",351,35
+Production of electricity,35110,351
+Transmission of electricity,35120,351
+Distribution of electricity,35130,351
+Trade of electricity,35140,351
+Manufacture of gas; distribution of gaseous fuels through mains,352,35
+Manufacture of gas,35210,352
+Distribution of gaseous fuels through mains,35220,352
+Trade of gas through mains,35230,352
+Steam and air conditioning supply,353,35
+Steam and air conditioning supply,35300,353
+"WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES",E,Is parent
+"Water collection, treatment and supply",36,E
+"Water collection, treatment and supply",360,36
+"Water collection, treatment and supply",36000,360
+Sewerage,37,E
+Sewerage,370,37
+Sewerage,37000,370
+"Waste collection, treatment and disposal activities; materials recovery",38,E
+Waste collection,381,38
+Collection of non-hazardous waste,38110,381
+Collection of hazardous waste,38120,381
+Waste treatment and disposal,382,38
+Treatment and disposal of non-hazardous waste,38210,382
+Treatment and disposal of hazardous waste,38220,382
+Materials recovery,383,38
+Dismantling of wrecks,38310,383
+Recovery of sorted materials,38320,383
+Remediation activities and other waste management services,39,E
+Remediation activities and other waste management services,390,39
+Remediation activities and other waste management services,39000,390
+CONSTRUCTION,F,Is parent
+Construction of buildings,41,F
+Development of building projects,411,41
+Development of building projects,41100,411
+Construction of residential and non-residential buildings,412,41
+Construction of residential and non-residential buildings,41200,412
+Construction of commercial buildings,41201,41200
+Construction of domestic buildings,41202,41200
+Civil engineering,42,F
+Construction of roads and railways,421,42
+Construction of roads and motorways,42110,421
+Construction of railways and underground railways,42120,421
+Construction of bridges and tunnels,42130,421
+Construction of utility projects,422,42
+Construction of utility projects for fluids,42210,422
+Construction of utility projects for electricity and telecommunications,42220,422
+Construction of other civil engineering projects,429,42
+Construction of water projects,42910,429
+Construction of other civil engineering projects nec,42990,429
+Specialised construction activities,43,F
+Demolition and site preparation,431,43
+Demolition,43110,431
+Site preparation,43120,431
+Test drilling and boring,43130,431
+"Electrical, plumbing and other construction installation activities",432,43
+Electrical installation,43210,432
+"Plumbing, heat and air-conditioning installation",43220,432
+Other construction installation,43290,432
+Building completion and finishing,433,43
+Plastering,43310,433
+Joinery installation,43320,433
+Floor and wall covering,43330,433
+Painting and glazing,43340,433
+Painting,43341,43340
+Glazing,43342,43340
+Other building completion and finishing,43390,433
+Other specialised construction activities,439,43
+Roofing activities,43910,439
+Other specialised construction activities nec,43990,439
+Scaffold erection,43991,43990
+Specialised construction activities (other than scaffold erection) nec,43999,43990
+WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES,G,Is parent
+Wholesale and retail trade and repair of motor vehicles and motorcycles,45,G
+Sale of motor vehicles,451,45
+Sale of cars and light motor vehicles,45110,451
+Sale of new cars and light motor vehicles,45111,45110
+Sale of used cars and light motor vehicles,45112,45110
+Sale of other motor vehicles,45190,451
+Maintenance and repair of motor vehicles,452,45
+Maintenance and repair of motor vehicles,45200,452
+Sale of motor vehicle parts and accessories,453,45
+Wholesale trade of motor vehicle parts and accessories,45310,453
+Retail trade of motor vehicle parts and accessories,45320,453
+"Sale, maintenance and repair of motorcycles and related parts and accessories",454,45
+"Sale, maintenance and repair of motorcycles and related parts and accessories",45400,454
+"Wholesale trade, except of motor vehicles and motorcycles",46,G
+Wholesale on a fee or contract basis,461,46
+"Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",46110,461
+"Agents involved in the sale of fuels, ores, metals and industrial chemicals",46120,461
+Agents involved in the sale of timber and building materials,46130,461
+"Agents involved in the sale of machinery, industrial equipment, ships and aircraft",46140,461
+"Agents involved in the sale of furniture, household goods, hardware and ironmongery",46150,461
+"Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",46160,461
+"Agents involved in the sale of food, beverages and tobacco",46170,461
+Agents specialised in the sale of other particular products,46180,461
+Agents involved in the sale of a variety of goods,46190,461
+Wholesale of agricultural raw materials and live animals,462,46
+"Wholesale of grain, unmanufactured tobacco, seeds and animal feeds",46210,462
+Wholesale of flowers and plants,46220,462
+Wholesale of live animals,46230,462
+"Wholesale of hides, skins and leather",46240,462
+"Wholesale of food, beverages and tobacco",463,46
+Wholesale of fruit and vegetables,46310,463
+Wholesale of meat and meat products,46320,463
+"Wholesale of dairy products, eggs and edible oils and fats",46330,463
+Wholesale of beverages,46340,463
+"Wholesale of fruit and vegetable juices, mineral waters and soft drinks",46341,46340
+"Wholesale of wine, beer, spirits and other alcoholic beverages",46342,46340
+Wholesale of tobacco products,46350,463
+Wholesale of sugar and chocolate and sugar confectionery,46360,463
+"Wholesale of coffee, tea, cocoa and spices",46370,463
+"Wholesale of other food, including fish, crustaceans and molluscs",46380,463
+"Non-specialised wholesale of food, beverages and tobacco",46390,463
+Wholesale of household goods,464,46
+Wholesale of textiles,46410,464
+Wholesale of clothing and footwear,46420,464
+Wholesale of electrical household appliances,46430,464
+"Wholesale of gramophone records, audio tapes, compact discs and video tapes and of the equipment on which these are played",46431,46430
+"Wholesale of radio and television goods and of electrical household appliances (other than of gramophone records, audio tapes, compact discs and video tapes and the equipment on which these are played) nec",46439,46430
+Wholesale of china and glassware and cleaning materials,46440,464
+Wholesale of perfume and cosmetics,46450,464
+Wholesale of pharmaceutical goods,46460,464
+"Wholesale of furniture, carpets and lighting equipment",46470,464
+Wholesale of watches and jewellery,46480,464
+Wholesale of other household goods,46490,464
+Wholesale of musical instruments,46491,46490
+Wholesale of household goods (other than musical instruments) nec,46499,46490
+Wholesale of information and communication equipment,465,46
+"Wholesale of computers, computer peripheral equipment and software",46510,465
+Wholesale of electronic and telecommunications equipment and parts,46520,465
+"Wholesale of other machinery, equipment and supplies",466,46
+"Wholesale of agricultural machinery, equipment and supplies",46610,466
+Wholesale of machine tools,46620,466
+"Wholesale of mining, construction and civil engineering machinery",46630,466
+Wholesale of machinery for the textile industry and of sewing and knitting machines,46640,466
+Wholesale of office furniture,46650,466
+Wholesale of other office machinery and equipment,46660,466
+Wholesale of other machinery and equipment,46690,466
+Other specialised wholesale,467,46
+"Wholesale of solid, liquid and gaseous fuels and related products",46710,467
+Wholesale of petroleum and petroleum products,46711,46710
+Wholesale of fuels and related products (other than petroleum and petroleum products),46719,46710
+Wholesale of metals and metal ores,46720,467
+"Wholesale of wood, construction materials and sanitary equipment",46730,467
+"Wholesale of hardware, plumbing and heating equipment and supplies",46740,467
+Wholesale of chemical products,46750,467
+Wholesale of other intermediate products,46760,467
+Wholesale of waste and scrap,46770,467
+Non-specialised wholesale trade,469,46
+Non-specialised wholesale trade,46900,469
+"Retail trade, except of motor vehicles and motorcycles",47,G
+Retail sale in non-specialised stores,471,47
+"Retail sale in non-specialised stores with food, beverages or tobacco predominating",47110,471
+Other retail sale in non-specialised stores,47190,471
+"Retail sale of food, beverages and tobacco in specialised stores",472,47
+Retail sale of fruit and vegetables in specialised stores,47210,472
+Retail sale of meat and meat products in specialised stores,47220,472
+"Retail sale of fish, crustaceans and molluscs in specialised stores",47230,472
+"Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores",47240,472
+Retail sale of beverages in specialised stores,47250,472
+Retail sale of tobacco products in specialised stores,47260,472
+Other retail sale of food in specialised stores,47290,472
+Retail sale of automotive fuel in specialised stores,473,47
+Retail sale of automotive fuel in specialised stores,47300,473
+Retail sale of information and communication equipment in specialised stores,474,47
+"Retail sale of computers, peripheral units and software in specialised stores",47410,474
+Retail sale of telecommunications equipment in specialised stores,47420,474
+Retail sale of mobile telephones in specialised stores,47421,47420
+"Retail sale of telecommunications equipment (other than mobile telephones) nec, in specialised stores",47429,47420
+Retail sale of audio and video equipment in specialised stores,47430,474
+Retail sale of other household equipment in specialised stores,475,47
+Retail sale of textiles in specialised stores,47510,475
+"Retail sale of hardware, paints and glass in specialised stores",47520,475
+"Retail sale of carpets, rugs, wall and floor coverings in specialised stores",47530,475
+Retail sale of electrical household appliances in specialised stores,47540,475
+"Retail sale of furniture, lighting equipment and other household articles in specialised stores",47590,475
+Retail sale of musical instruments and scores in specialised stores,47591,47590
+"Retail sale of furniture, lighting equipment and other household articles (other than musical instruments) nec, in specialised stores",47599,47590
+Retail sale of cultural and recreation goods in specialised stores,476,47
+Retail sale of books in specialised stores,47610,476
+Retail sale of newspapers and stationery in specialised stores,47620,476
+Retail sale of music and video recordings in specialised stores,47630,476
+Retail sale of sporting equipment in specialised stores,47640,476
+Retail sale of games and toys in specialised stores,47650,476
+Retail sale of other goods in specialised stores,477,47
+Retail sale of clothing in specialised stores,47710,477
+Retail sale of footwear and leather goods in specialised stores,47720,477
+Retail sale of footwear in specialised stores,47721,47720
+Retail sale of leather goods in specialised stores,47722,47720
+Dispensing chemist in specialised stores,47730,477
+Retail sale of medical and orthopaedic goods in specialised stores,47740,477
+Retail sale of hearing aids in specialised stores,47741,47740
+"Retail sale of medical and orthopaedic goods (other than hearing aids) nec, in specialised stores",47749,47740
+Retail sale of cosmetic and toilet articles in specialised stores,47750,477
+"Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores",47760,477
+Retail sale of watches and jewellery in specialised stores,47770,477
+Other retail sale of new goods in specialised stores,47780,477
+Retail sale in commercial art galleries,47781,47780
+Retail sale by opticians,47782,47780
+"Other retail sale of new goods in specialised stores (other than by opticians or commercial art galleries), nec",47789,47780
+Retail sale of second-hand goods in stores,47790,477
+"Retail sale of antiques including antique books, in stores",47791,47790
+Retail sale of second-hand goods (other than antiques and antique books) in stores,47799,47790
+Retail sale via stalls and markets,478,47
+"Retail sale via stalls and markets of food, beverages and tobacco products",47810,478
+"Retail sale via stalls and markets of textiles, clothing and footwear",47820,478
+Retail sale via stalls and markets of other goods,47890,478
+"Retail trade not in stores, stalls or markets",479,47
+Retail sale via mail order houses or via Internet,47910,479
+"Other retail sale not in stores, stalls or markets",47990,479
+TRANSPORTATION AND STORAGE,H,Is parent
+Land transport and transport via pipelines,49,H
+"Passenger rail transport, interurban",491,49
+"Passenger rail transport, interurban",49100,491
+Freight rail transport,492,49
+Freight rail transport,49200,492
+Other passenger land transport,493,49
+Urban and suburban passenger land transport,49310,493
+"Urban, suburban or metropolitan area passenger railway transportation by underground, metro and similar systems",49311,49310
+"Urban, suburban or metropolitan area passenger land transport other than railway transportation by underground, metro and similar systems",49319,49310
+Taxi operation,49320,493
+Other passenger land transport nec,49390,493
+Freight transport by road and removal services,494,49
+Freight transport by road,49410,494
+Removal services,49420,494
+Transport via pipeline,495,49
+Transport via pipeline,49500,495
+Water transport,50,H
+Sea and coastal passenger water transport,501,50
+Sea and coastal passenger water transport,50100,501
+Sea and coastal freight water transport,502,50
+Sea and coastal freight water transport,50200,502
+Inland passenger water transport,503,50
+Inland passenger water transport,50300,503
+Inland freight water transport,504,50
+Inland freight water transport,50400,504
+Air transport,51,H
+Passenger air transport,511,51
+Passenger air transport,51100,511
+Scheduled passenger air transport,51101,51100
+Non-scheduled passenger air transport,51102,51100
+Freight air transport and space transport,512,51
+Freight air transport,51210,512
+Space transport,51220,512
+Warehousing and support activities for transportation,52,H
+Warehousing and storage,521,52
+Warehousing and storage,52100,521
+Operation of warehousing and storage facilities for water transport activities of division 50,52101,52100
+Operation of warehousing and storage facilities for air transport activities of division 51,52102,52100
+Operation of warehousing and storage facilities for land transport activities of division 49,52103,52100
+Support activities for transportation,522,52
+Service activities incidental to land transportation,52210,522
+Operation of rail freight terminals,52211,52210
+Operation of rail passenger facilities at railway stations,52212,52210
+Operation of bus and coach passenger facilities at bus and coach stations,52213,52210
+"Other service activities incidental to land transportation, nec (not including operation of rail freight terminals, passenger facilities at railway stations or passenger facilities at bus and coach stations)",52219,52210
+Service activities incidental to water transportation,52220,522
+Service activities incidental to air transportation,52230,522
+Cargo handling,52240,522
+Cargo handling for water transport activities of division 50,52241,52240
+Cargo handling for air transport activities of division 51,52242,52240
+Cargo handling for land transport activities of division 49,52243,52240
+Other transportation support activities,52290,522
+Postal and courier activities,53,H
+Postal activities under universal service obligation,531,53
+Postal activities under universal service obligation,53100,531
+Other postal and courier activities,532,53
+Other postal and courier activities,53200,532
+Licensed Carriers,53201,53200
+Unlicensed Carriers,53202,53200
+ACCOMMODATION AND FOOD SERVICE ACTIVITIES,I,Is parent
+Accommodation,55,I
+Hotels and similar accommodation,551,55
+Hotels and similar accommodation,55100,551
+Holiday and other short-stay accommodation,552,55
+Holiday and other short-stay accommodation,55200,552
+Holiday centres and villages,55201,55200
+Youth hostels,55202,55200
+Other holiday and other short-stay accommodation (not including holiday centres and villages or youth hostels) nec,55209,55200
+"Camping grounds, recreational vehicle parks and trailer parks",553,55
+"Camping grounds, recreational vehicle parks and trailer parks",55300,553
+Other accommodation,559,55
+Other accommodation,55900,559
+Food and beverage service activities,56,I
+Restaurants and mobile food service activities,561,56
+Restaurants and mobile food service activities,56100,561
+Licensed restaurants,56101,56100
+Unlicensed restaurants and cafes,56102,56100
+Take away food shops and mobile food stands,56103,56100
+Event catering and other food service activities,562,56
+Event catering activities,56210,562
+Other food service activities,56290,562
+Beverage serving activities,563,56
+Beverage serving activities,56300,563
+Licensed clubs,56301,56300
+Public houses and bars,56302,56300
+INFORMATION AND COMMUNICATION,J,Is parent
+Publishing activities,58,J
+"Publishing of books, periodicals and other publishing activities",581,58
+Book publishing,58110,581
+Publishing of directories and mailing lists,58120,581
+Publishing of newspapers,58130,581
+Publishing of journals and periodicals,58140,581
+Publishing of learned journals,58141,58140
+"Publishing of consumer, business and professional journals and periodicals",58142,58140
+Other publishing activities,58190,581
+Software publishing,582,58
+Publishing of computer games,58210,582
+Other software publishing,58290,582
+"Motion picture, video and television programme production, sound recording and music publishing activities",59,J
+"Motion picture, video and television programme activities",591,59
+"Motion picture, video and television programme production activities",59110,591
+Motion picture production activities,59111,59110
+Video production activities,59112,59110
+Television programme production activities,59113,59110
+"Motion picture, video and television programme post-production activities",59120,591
+"Motion picture, video and television programme distribution activities",59130,591
+Motion picture distribution activities,59131,59130
+Video distribution activities,59132,59130
+Television programme distribution activities,59133,59130
+Motion picture projection activities,59140,591
+Sound recording and music publishing activities,592,59
+Sound recording and music publishing activities,59200,592
+Programming and broadcasting activities,60,J
+Radio broadcasting,601,60
+Radio broadcasting,60100,601
+Television programming and broadcasting activities,602,60
+Television programming and broadcasting activities,60200,602
+Telecommunications,61,J
+Wired telecommunications activities,611,61
+Wired telecommunications activities,61100,611
+Wireless telecommunications activities,612,61
+Wireless telecommunications activities,61200,612
+Satellite telecommunications activities,613,61
+Satellite telecommunications activities,61300,613
+Other telecommunications activities,619,61
+Other telecommunications activities,61900,619
+"Computer programming, consultancy and related activities",62,J
+"Computer programming, consultancy and related activities",620,62
+Computer programming activities,62010,620
+Ready-made interactive leisure and entertainment software development,62011,62010
+Business and domestic software development,62012,62010
+Computer consultancy activities,62020,620
+Computer facilities management activities,62030,620
+Other information technology and computer service activities,62090,620
+Information service activities,63,J
+"Data processing, hosting and related activities; web portals",631,63
+"Data processing, hosting and related activities",63110,631
+Web portals,63120,631
+Other information service activities,639,63
+News agency activities,63910,639
+Other information service activities nec,63990,639
+FINANCIAL AND INSURANCE ACTIVITIES,K,Is parent
+"Financial service activities, except insurance and pension funding",64,K
+Monetary intermediation,641,64
+Central banking,64110,641
+Other monetary intermediation,64190,641
+Banks,64191,64190
+Building societies,64192,64190
+Activities of holding companies,642,64
+Activities of holding companies,64200,642
+Activities of agricultural holding companies,64201,64200
+Activities of production holding companies,64202,64200
+Activities of construction holding companies,64203,64200
+Activities of distribution holding companies,64204,64200
+Activities of financial services holding companies,64205,64200
+"Activities of other holding companies (not including agricultural, production, construction, distribution and financial services holding companies) nec",64209,64200
+"Trusts, funds and similar financial entities",643,64
+"Trusts, funds and similar financial entities",64300,643
+Activities of investment trusts,64301,64300
+Activities of unit trusts,64302,64300
+Activities of venture and development capital companies,64303,64300
+Activities of open-ended investment companies,64304,64300
+Activities of property unit trusts,64305,64300
+Activities of real estate investment trusts,64306,64300
+"Other financial service activities, except insurance and pension funding",649,64
+Financial leasing,64910,649
+Other credit granting,64920,649
+Credit granting by non-deposit taking finance houses and other specialist consumer credit grantors,64921,64920
+Activities of mortgage finance companies,64922,64920
+Other credit granting (not including credit granting by non-deposit taking finance houses and other specialist consumer credit grantors and activities of mortgage finance companies) nec,64929,64920
+"Other financial service activities, except insurance and pension funding, nec",64990,649
+Security dealing on own account,64991,64990
+Factoring,64992,64990
+"Other financial service activities, except insurance and pension funding, (not including security dealing on own account and factoring) nec",64999,64990
+"Insurance, reinsurance and pension funding, except compulsory social security",65,K
+Insurance,651,65
+Life insurance,65110,651
+Non-life insurance,65120,651
+Reinsurance,652,65
+Reinsurance,65200,652
+Life reinsurance,65201,65200
+Non-life reinsurance,65202,65200
+Pension funding,653,65
+Pension funding,65300,653
+Activities auxiliary to financial services and insurance activities,66,K
+"Activities auxiliary to financial services, except insurance and pension funding",661,66
+Administration of financial markets,66110,661
+Security and commodity contracts brokerage,66120,661
+"Other activities auxiliary to financial services, except insurance and pension funding",66190,661
+Activities auxiliary to insurance and pension funding,662,66
+Risk and damage evaluation,66210,662
+Activities of insurance agents and brokers,66220,662
+Other activities auxiliary to insurance and pension funding,66290,662
+Fund management activities,663,66
+Fund management activities,66300,663
+REAL ESTATE ACTIVITIES,L,Is parent
+Real estate activities,68,L
+Buying and selling of own real estate,681,68
+Buying and selling of own real estate,68100,681
+Renting and operating of own or leased real estate,682,68
+Renting and operating of own or leased real estate,68200,682
+Renting and operating of Housing Association real estate,68201,68200
+Letting and operating of conference and exhibition centres,68202,68200
+Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) nec,68209,68200
+Real estate activities on a fee or contract basis,683,68
+Real estate agencies,68310,683
+Management of real estate on a fee or contract basis,68320,683
+"PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",M,Is parent
+Legal and accounting activities,69,M
+Legal activities,691,69
+Legal activities,69100,691
+Barristers at law,69101,69100
+Solicitors,69102,69100
+Activities of patent and copyright agents; other legal activities (other than those of barristers and solicitors) nec,69109,69100
+"Accounting, bookkeeping and auditing activities; tax consultancy",692,69
+"Accounting, bookkeeping and auditing activities; tax consultancy",69200,692
+"Accounting, and auditing activities",69201,69200
+Bookkeeping activities,69202,69200
+Tax consultancy,69203,69200
+Activities of head offices; management consultancy activities,70,M
+Activities of head offices,701,70
+Activities of head offices,70100,701
+Management consultancy activities,702,70
+Public relations and communication activities,70210,702
+Business and other management consultancy activities,70220,702
+Financial management,70221,70220
+Management consultancy activities (other than financial management),70229,70220
+Architectural and engineering activities; technical testing and analysis,71,M
+Architectural and engineering activities and related technical consultancy,711,71
+Architectural activities,71110,711
+Architectural activities,71111,71110
+Urban planning and landscape architectural activities,71112,71110
+Engineering activities and related technical consultancy,71120,711
+Engineering design activities for industrial process and production,71121,71120
+Engineering related scientific and technical consulting activities,71122,71120
+Other engineering activities (not including engineering design for industrial process and production or engineering related scientific and technical consulting activities),71129,71120
+Technical testing and analysis,712,71
+Technical testing and analysis,71200,712
+Scientific research and development,72,M
+Research and experimental development on natural sciences and engineering,721,72
+Research and experimental development on biotechnology,72110,721
+Other research and experimental development on natural sciences and engineering,72190,721
+Research and experimental development on social sciences and humanities,722,72
+Research and experimental development on social sciences and humanities,72200,722
+Advertising and market research,73,M
+Advertising,731,73
+Advertising agencies,73110,731
+Media representation,73120,731
+Market research and public opinion polling,732,73
+Market research and public opinion polling,73200,732
+"Other professional, scientific and technical activities",74,M
+Specialised design activities,741,74
+Specialised design activities,74100,741
+Photographic activities,742,74
+Photographic activities,74200,742
+Portrait photographic activities,74201,74200
+Other specialist photography (not including portrait photography),74202,74200
+Film processing,74203,74200
+Other photographic activities (not including portrait and other specialist photography and film processing) nec,74209,74200
+Translation and interpretation activities,743,74
+Translation and interpretation activities,74300,743
+"Other professional, scientific and technical activities nec",749,74
+"Other professional, scientific and technical activities nec",74900,749
+Environmental consulting activities,74901,74900
+Quantity surveying activities,74902,74900
+"Other professional, scientific and technical activities (not including environmental consultancy or quantity surveying) nec",74909,74900
+Veterinary activities,75,M
+Veterinary activities,750,75
+Veterinary activities,75000,750
+ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES,N,Is parent
+Rental and leasing activities,77,N
+Renting and leasing of motor vehicles,771,77
+Renting and leasing of cars and light motor vehicles,77110,771
+Renting and leasing of trucks,77120,771
+Renting and leasing of personal and household goods,772,77
+Renting and leasing of recreational and sports goods,77210,772
+Renting of video tapes and disks,77220,772
+Renting and leasing of other personal and household goods,77290,772
+Renting and leasing of media entertainment equipment,77291,77290
+Renting and leasing of other personal and household goods (other than media entertainment equipment),77299,77290
+"Renting and leasing of other machinery, equipment and tangible goods",773,77
+Renting and leasing of agricultural machinery and equipment,77310,773
+Renting and leasing of construction and civil engineering machinery and equipment,77320,773
+Renting and leasing of office machinery and equipment (including computers),77330,773
+Renting and leasing of water transport equipment,77340,773
+Renting and leasing of passenger water transport equipment,77341,77340
+Renting and leasing of freight water transport equipment,77342,77340
+Renting and leasing of air transport equipment,77350,773
+Renting and leasing of passenger air transport equipment,77351,77350
+Renting and leasing of freight air transport equipment,77352,77350
+"Renting and leasing of other machinery, equipment and tangible goods nec",77390,773
+"Leasing of intellectual property and similar products, except copyrighted works",774,77
+"Leasing of intellectual property and similar products, except copyrighted works",77400,774
+Employment activities,78,N
+Activities of employment placement agencies,781,78
+Activities of employment placement agencies,78100,781
+"Motion picture, television and other theatrical casting",78101,78100
+"Activities of employment placement agencies (other than motion picture, television and other theatrical casting) nec",78109,78100
+Temporary employment agency activities,782,78
+Temporary employment agency activities,78200,782
+Other human resources provision,783,78
+Other human resources provision,78300,783
+"Travel agency, tour operator and other reservation service and related activities",79,N
+Travel agency and tour operator activities,791,79
+Travel agency activities,79110,791
+Tour operator activities,79120,791
+Other reservation service and related activities,799,79
+Other reservation service and related activities,79900,799
+Activities of tourist guides,79901,79900
+Other reservation service and related activities (not including activities of tourist guides),79909,79900
+Security and investigation activities,80,N
+Private security activities,801,80
+Private security activities,80100,801
+Security systems service activities,802,80
+Security systems service activities,80200,802
+Investigation activities,803,80
+Investigation activities,80300,803
+Services to buildings and landscape activities,81,N
+Combined facilities support activities,811,81
+Combined facilities support activities,81100,811
+Cleaning activities,812,81
+General cleaning of buildings,81210,812
+Other building and industrial cleaning activities,81220,812
+Window cleaning services,81221,81220
+Specialised cleaning services,81222,81220
+Furnace and chimney cleaning services,81223,81220
+"Building and industrial cleaning activities (other than window cleaning, specialised cleaning and furnace and chimney cleaning services) nec",81229,81220
+Other cleaning activities,81290,812
+Disinfecting and extermination services,81291,81290
+Cleaning services (other than disinfecting and extermination services) nec,81299,81290
+Landscape service activities,813,81
+Landscape service activities,81300,813
+"Office administrative, office support and other business support activities",82,N
+Office administrative and support activities,821,82
+Combined office administrative service activities,82110,821
+"Photocopying, document preparation and other specialised office support activities",82190,821
+Activities of call centres,822,82
+Activities of call centres,82200,822
+Organisation of conventions and trade shows,823,82
+Organisation of conventions and trade shows,82300,823
+Activities of exhibition and fair organizers,82301,82300
+Activities of conference organizers,82302,82300
+Business support service activities nec,829,82
+Activities of collection agencies and credit bureaus,82910,829
+Activities of collection agencies,82911,82910
+Activities of credit bureaus,82922,82920
+Packaging activities,82920,829
+Other business support service activities nec,82990,829
+PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY,O,Is parent
+Public administration and defence; compulsory social security,84,O
+Administration of the State and the economic and social policy of the community,841,84
+General public administration activities,84110,841
+"Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",84120,841
+Regulation of and contribution to more efficient operation of businesses,84130,841
+Provision of services to the community as a whole,842,84
+Foreign affairs,84210,842
+Defence activities,84220,842
+Justice and judicial activities,84230,842
+Public order and safety activities,84240,842
+Fire service activities,84250,842
+Compulsory social security activities,843,84
+Compulsory social security activities,84300,843
+EDUCATION,P,Is parent
+Education,85,P
+Pre-primary education,851,85
+Pre-primary education,85100,851
+Primary education,852,85
+Primary education,85200,852
+Secondary education,853,85
+General secondary education,85310,853
+Technical and vocational secondary education,85320,853
+Higher education,854,85
+Post-secondary non-tertiary education,85410,854
+Tertiary education,85420,854
+First-degree level higher education,85421,85420
+Post-graduate level higher education,85422,85420
+Other education,855,85
+Sports and recreation education,85510,855
+Cultural education,85520,855
+Driving school activities,85530,855
+Other education nec,85590,855
+Educational support activities,856,85
+Educational support activities,85600,856
+HUMAN HEALTH AND SOCIAL WORK ACTIVITIES,Q,Is parent
+Human health activities,86,Q
+Hospital activities,861,86
+Hospital activities,86100,861
+Hospital activities,86101,86100
+Medical nursing home activities,86102,86100
+Medical and dental practice activities,862,86
+General medical practice activities,86210,862
+Specialist medical practice activities,86220,862
+Dental practice activities,86230,862
+Other human health activities,869,86
+Other human health activities,86900,869
+Residential care activities,87,Q
+Residential nursing care activities,871,87
+Residential nursing care activities,87100,871
+"Residential care activities for learning disabilities, mental health and substance abuse",872,87
+"Residential care activities for learning disabilities, mental health and substance abuse",87200,872
+Residential care activities for the elderly and disabled,873,87
+Residential care activities for the elderly and disabled,87300,873
+Other residential care activities,879,87
+Other residential care activities,87900,879
+Social work activities without accommodation,88,Q
+Social work activities without accommodation for the elderly and disabled,881,88
+Social work activities without accommodation for the elderly and disabled,88100,881
+Other social work activities without accommodation,889,88
+Child day-care activities,88910,889
+Other social work activities without accommodation nec,88990,889
+"ARTS, ENTERTAINMENT AND RECREATION",R,Is parent
+"Creative, arts and entertainment activities",90,R
+"Creative, arts and entertainment activities",900,90
+Performing arts,90010,900
+Support activities to performing arts,90020,900
+Artistic creation,90030,900
+Operation of arts facilities,90040,900
+"Libraries, archives, museums and other cultural activities",91,R
+"Libraries, archives, museums and other cultural activities",910,91
+Library and archive activities,91010,910
+Library activities,91011,91010
+Archive activities,91012,91010
+Museum activities,91020,910
+Operation of historical sites and buildings and similar visitor attractions,91030,910
+Botanical and zoological gardens and nature reserve activities,91040,910
+Gambling and betting activities,92,R
+Gambling and betting activities,920,92
+Gambling and betting activities,92000,920
+Sports activities and amusement and recreation activities,93,R
+Sports activities,931,93
+Operation of sports facilities,93110,931
+Activities of sport clubs,93120,931
+Fitness facilities,93130,931
+Other sports activities,93190,931
+Activities of racehorse owners,93191,93190
+Other sports activities (not including activities of racehorse owners) nec,93199,93190
+Amusement and recreation activities,932,93
+Activities of amusement parks and theme parks,93210,932
+Other amusement and recreation activities,93290,932
+OTHER SERVICE ACTIVITIES,S,Is parent
+Activities of membership organisations,94,S
+"Activities of business, employers and professional membership organisations",941,94
+Activities of business and employers membership organisations,94110,941
+Activities of professional membership organisations,94120,941
+Activities of trade unions,942,94
+Activities of trade unions,94200,942
+Activities of other membership organisations,949,94
+Activities of religious organisations,94910,949
+Activities of political organisations,94920,949
+Activities of other membership organisations nec,94990,949
+Repair of computers and personal and household goods,95,S
+Repair of computers and communication equipment,951,95
+Repair of computers and peripheral equipment,95110,951
+Repair of communication equipment,95120,951
+Repair of personal and household goods,952,95
+Repair of consumer electronics,95210,952
+Repair of household appliances and home and garden equipment,95220,952
+Repair of footwear and leather goods,95230,952
+Repair of furniture and home furnishings,95240,952
+"Repair of watches, clocks and jewellery",95250,952
+Repair of other personal and household goods,95290,952
+Other personal service activities,96,S
+Other personal service activities,960,96
+Washing and (dry-)cleaning of textile and fur products,96010,960
+Hairdressing and other beauty treatment,96020,960
+Funeral and related activities,96030,960
+Physical well-being activities,96040,960
+Other personal service activities nec,96090,960
+ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE,T,Is parent
+Activities of households as employers of domestic personnel,97,T
+Activities of households as employers of domestic personnel,970,97
+Activities of households as employers of domestic personnel,97000,970
+Undifferentiated goods- and services-producing activities of private households for own use,98,T
+Undifferentiated goods-producing activities of private households for own use,981,98
+Undifferentiated goods-producing activities of private households for own use,98100,981
+Undifferentiated service-producing activities of private households for own use,982,98
+Undifferentiated service-producing activities of private households for own use,98200,982
+ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES,U,Is parent
+Activities of extraterritorial organisations and bodies,99,U
+Activities of extraterritorial organisations and bodies,990,99
+Activities of extraterritorial organisations and bodies,99000,990
