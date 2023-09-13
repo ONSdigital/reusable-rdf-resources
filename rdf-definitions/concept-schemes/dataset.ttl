@@ -10,7 +10,7 @@
         <http://purl.org/dc/terms/license>  <https://creativecommons.org/license/by/4.0/> ;
         <http://purl.org/dc/terms/modified>  "2017-06-15T12:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
         <http://purl.org/dc/terms/publisher>  <https://www.gov.uk/government/organisations/office-for-national-statistics> ;
-        <http://purl.org/dc/terms/title>  " Sex code list"@en ;
+        <http://purl.org/dc/terms/title>  "Sex code list"@en ;
         <http://purl.org/dv/terms/description>  "Automated non-hierarchical sex code list linked to SDMX"^^<https://www.w3.org/ns/iana/media-types/text/markdown#Resources> ;
         <http://www.w3.org.ns/prov#wasGeneratedBy>  <http://workspace/sex/sex.csv#csvcubed-build-activity> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "List of sex"@en ;
@@ -52,7 +52,7 @@
 
 <http://workspace/sex/sex.csv#_O>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>  "Used to cover residual information not contained in other categories of the code list (in some contexts, e.g.classifications, referred to as n.e.s., not elsewhere specified, n.e.c., not elsewhere classified, etc.)" ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>  "Used to cover residual information not contained in other categories of the code list (in some contexts,e.g. classifications, referred to as n.e.s., not elsewhere specified, n.e.c., not elsewhere classified, etc.)" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "Other" ;
         <http://www.w3.org/2002/07/owl#sameAs>  <https://sdmx.org/Other> ;
         <http://www.w3.org/2004/02/skos/core#inScheme>  <http://workspace/sex/sex.csv#code-list> ;
