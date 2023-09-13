@@ -21,7 +21,7 @@
             "http://purl.org/dc/terms/description": [
                 {
                     "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "Automated non-hierarchical standard industrial classification code list linked to DBPedia"
+                    "@value": "Automated non-hierarchical standard industrial classification code list linked to ONS"
                 }
             ],
             "http://purl.org/dc/terms/identifier": [
