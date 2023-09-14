@@ -1,4 +1,4 @@
-Uri Identifier,Label,Notation,Parent Uri Identifier ,Sort Priority,Description,Original Concept URI
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description,Original Concept URI
 F,Female,F,,0,Female,https://sdmx.org/Female
 M,Male,M,,1,Male,https://sdmx.org/Male
 _N,Non response,_N,,2,Failure to obtain a measurement on one or more study variables for one or more elements in a survey.,https://sdmx.org/Non-response
