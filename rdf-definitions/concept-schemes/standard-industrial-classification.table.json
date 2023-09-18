@@ -1,0 +1,39 @@
+{
+    "columns": [
+        {
+            "titles": "Description",
+            "name": "description",
+            "required": true,
+            "propertyUrl": "rdfs:label"
+        },
+        {
+            "titles": "Code",
+            "name": "code",
+            "required": true,
+            "suppressOutput": true
+        },
+        {
+            "titles": "Parent",
+            "name": "parent",
+            "required": false,
+            "propertyUrl": "skos:broader",
+            "valueUrl": "standard-industrial-classification.csv#{+parent}"
+        },
+        {
+            "virtual": true,
+            "name": "virt_inScheme",
+            "required": true,
+            "propertyUrl": "skos:inScheme",
+            "valueUrl": "standard-industrial-classification.csv#code-list"
+        },
+        {
+            "virtual": true,
+            "name": "virt_type",
+            "required": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "skos:Concept"
+        }
+    ],
+    "aboutUrl": "standard-industrial-classification.csv#{+code}",
+    "primaryKey": "code"
+}
